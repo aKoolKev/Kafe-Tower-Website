@@ -1,0 +1,85 @@
+
+/* Animate utility classes */
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* animation function that defines the animation */
+@keyframes logo-animation{
+    /* hopping down from off the screen */
+    0%   {transform: translate(-100px, -100px);}
+    35%  {transform: translate(10px, 70px);}
+
+
+    /* jumping up to the right... */
+    50%  {transform: translate(150px, 5px); opacity: 100;}
+    65%  {transform: translate(150px, 5px);}
+
+
+    /* rotating couterclockwise... */
+    65%{
+        transform-origin: left top;
+        transform: translate(0px, 70px) rotate(-360deg) ; }
+    70%{
+        transform-origin: center center;
+        transform: translate(0px, 70px) rotate(-360deg);}
+   
+    /* slide up */
+    100%{
+        transform-origin: left top;
+        transform: translate(0px, 5px) rotate(-360deg);}
+}
+@keyframes reveal{
+    0%{opacity: 0}
+    100%{opacity: 100}
+}
+
+@keyframes reveal-upward{
+    0%{opacity: 0; transform: translateY(20px);}
+    40%{transform: translateY(20px);}
+    100%{opacity: 100; transform: translateY(0px);}
+}
+
+
+/* animate class */
+.logo-animation{
+    animation: logo-animation 4s ease-in-out 0s forwards;
+}
+.reveal-upward{
+    animation: reveal-upward 1s ease-in 2.1s forwards;
+}
+.reveal{
+    animation: reveal 1s ease-in 3s forwards;
+}
+
+
+/* define space for the animation to occur in  */
+#animation-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* Positioning context for children */
+    border: 1px solid #000; /* Optional border for clarity */
+}
+
+/* change business name h1 sizing*/
+#business-name{
+    width: fit-content;
+    position:relative;
+    display: block;  
+    padding: 0px;
+    margin: 0px;
+}
+
+#business-logo{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+    opacity: 0;
+}
