@@ -12,45 +12,109 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            
 
+        <header>
+        
+            <!-- Video resource on how to use CSS keyframe: https://www.youtube.com/watch?v=SgmNxE9lWcY -->
+
+            <!-- Animated Logo -->
             <div id="animation-area">
+
                 <!-- Cafe name -->
                 <h1 id="business-name" class="animate logo-animation"> Kat-fé Tower </h1>
+
                 <!-- Cafe logo -->
-                <!-- <h1 id="business-name" class="animate reveal" style="opacity: 0;"> Kat-fé Tower </h1> -->
                 <img id="business-logo" class="animate reveal-upward" src="images/Kat-fe Tower Logo.png" alt="The Kat-fe Tower logo: a cat peeking from a coffee cup">
             </div>
 
-                
-            
-            
 
             <!-- Horizontal Navbar -->
-             <nav class="nav">
-
+            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <ul class="navbar nav">
-                        <li class="nav-item">HOME</li>
-                        <li class="nav-item">ABOUT</li>
-                        <li class="nav-item">MENU</li>
-                        <li class="nav-item">SHOP</li>
-                        <li class="nav-item">ADOPT</li>
-                    </ul>
-                </div>
-             </nav>
+
+                    <!-- Hamburger menu that appears when it reaches the medium screen sizes -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-container" aria-controls="collapsible-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Collapisble content -->
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsible-container">
+
+                        <ul class="navbar-nav p-1">
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="about-page.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="menu-page.html">MENU</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="shop-page.html">SHOP</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="adopt-page.html">ADOPT</a>
+                            </li>
+                        </ul>
+                    </div><!--End of collapsible continer-->
+                </div> <!--End of container-->
+            </nav>
            
         </header>
         
         <main>
-            <!-- Location -->
+            <div class="container text-center">
+                <div class="row text-center" style="background-color: gray;">
+                    <!-- Location -->
+                    <div class="col" style="background-color: tan;">
+                        <h2>Our Location</h2>
+                        
+                    </div>
+
+                    <!-- Mission statement -->
+                    <div class="col" style="background-color: tan;">
+                        <h2>Who Are We?</h2>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Dolores magni, voluptatum maiores sequi expedita, nobis qui 
+                        tenetur vel facere illum consequatur possimus, alias excepturi 
+                        in reiciendis commodi ipsam amet ullam.
+                    </div>
+
+                    <!-- Hours -->
+                    <div class="col" style="background-color: tan;">
+                        <div class="table">
+                            <thead>
+
+                            </thead>
+                        </div>
+
+                        <!-- Table credit: https://getbootstrap.com/docs/5.3/content/tables/#overview -->
+                        <!-- Table hover credit: https://getbootstrap.com/docs/5.3/content/tables/#hoverable-rows -->
+                        <!-- Table border credit: https://getbootstrap.com/docs/5.3/content/tables/#table-borders -->
+                        <!-- Table divider: https://getbootstrap.com/docs/5.3/content/tables/#table-group-dividers -->
+                        <table class="table table-hover table-bordered table-responsive">
+                            <thead>
+                                <tr>
+                                    <th colspan="2" class="col-span2"><h2>Our Hours</h2></th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                                <tr>
+                                    <th scope="row">Monday-Thursday</th>
+                                    <td>7 A.M. - 3 P.M.</td>
+                                 </tr>
+                                <tr>
+                                    <th scope="row">Friday-Saturday</th>
+                                    <td>7 A.M. - 12 P.M.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                </div>
+            </div>
             
-            <!-- Mission statement -->
             <!-- Button to About page -->
-            
-            <!-- Hours -->
-            
             <!-- Button to Menu page -->
         </main>
 
