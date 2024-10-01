@@ -1,16 +1,6 @@
 
-/* animation utility class */
-.animate {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
-/* animation classes */
-.logo-animation{
-    animation: logo-animation 4s ease-in-out 0s forwards;
-}
 .reveal-upward{
-    animation: reveal-upward 1s ease-in 2.1s forwards;
+    animation: reveal-upward 1s ease-in 2.3s forwards;
 }
 
 /* hops down, jump right, and spin counterclockwise animation */
@@ -57,6 +47,18 @@
     border: 1px solid #000;
 }
 
+/* Apply animation to business NAME when hovered over on desktop */
+#animation-area:hover #business-name {
+    animation: logo-animation 4s ease-in-out 0s forwards;
+}
+
+/* Apply animation to business LOGO when hovered over on desktop */
+#animation-area:hover #business-logo {
+    opacity: 0;
+    animation: reveal-upward 1s ease-in 2.3s forwards;
+}
+
+
 #business-name{
     width: fit-content;
     position:relative;
@@ -70,12 +72,14 @@
     height: auto;
     display: block;
     margin: auto;
-    opacity: 0;
+    /* opacity: 0; */
 }
-
-
 
 /* */
 body{
     background-color: rgb(227, 208, 208);
+}
+
+.col{
+    border: 2px solid black;
 }

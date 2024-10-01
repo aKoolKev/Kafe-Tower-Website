@@ -1,0 +1,46 @@
+KEY:
+✅  "Done"
+▢   "Task"
+⬅︎ ↵   "In progress"
+
+
+
+9/30 (MON)
+    1. Home page ⬅︎
+        ▢ Animation 
+            > Active on hover ✅
+            > Create new onload Animation ↵
+        ▢ Craft mission statement
+        ▢ Embed location
+    2. About page
+        ▢ Photo me
+            ▢ ...Bio
+
+        ▢ Photo of Erika
+            ▢ ...Bio
+
+        ▢ Photo of Sappy
+            ▢ ...Bio
+            ▢ animation???
+
+        ▢ Photo of Garden
+            ▢ ...Bio
+            ▢ animation???
+
+        ▢ Photo of Azula
+            ▢ ...Bio
+            ▢ animation???
+
+        ▢ Photo of Frankie
+            ▢ ...Bio
+            ▢ animation???
+
+        ▢ Photo of River
+            ▢ ...Bio
+            ▢ animation???
+
+        
+
+
+
+

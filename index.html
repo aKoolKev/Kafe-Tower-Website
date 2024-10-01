@@ -21,10 +21,10 @@
             <div id="animation-area">
 
                 <!-- Cafe name -->
-                <h1 id="business-name" class="animate logo-animation"> Kat-fé Tower </h1>
+                <h1 id="business-name"> Kat-fé Tower </h1>
 
                 <!-- Cafe logo -->
-                <img id="business-logo" class="animate reveal-upward" src="images/Kat-fe Tower Logo.png" alt="The Kat-fe Tower logo: a cat peeking from a coffee cup">
+                <img id="business-logo" src="images/Kat-fe Tower Logo.png" alt="The Kat-fe Tower logo: a cat peeking from a coffee cup">
             </div>
 
 
@@ -64,31 +64,52 @@
         </header>
         
         <main>
-            <div class="container text-center">
+            <div class="container text-center mt-4" style="background-color: white; height: fit-content; ">
                 <div class="row text-center" style="background-color: gray;">
+                    
                     <!-- Location -->
-                    <div class="col" style="background-color: tan;">
+                    <div class="col" style="background-color: tan; height: fit-content;">
                         <h2>Our Location</h2>
-                        
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.138648935137!2d-90.48298682349825!3d38.78345577174862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df2fb5c8f1f6bd%3A0xd17027a4a45e4f14!2sCat%20Zen%20Cafe%20and%20Lounge!5e0!3m2!1sen!2sus!4v1727740756009!5m2!1sen!2sus" 
+                            width="400px" 
+                            height="450px" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
+                    
 
                     <!-- Mission statement -->
                     <div class="col" style="background-color: tan;">
+                        
                         <h2>Who Are We?</h2>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Dolores magni, voluptatum maiores sequi expedita, nobis qui 
-                        tenetur vel facere illum consequatur possimus, alias excepturi 
-                        in reiciendis commodi ipsam amet ullam.
+                        <p class="container">
+                            A couple-owned business born from their passion and love for cats and coffee. We have proudly 
+                            operated on bustling St. Charles Historic Main Street for five years and counting. <br><br>
+
+                            Customers can enjoy delicious coffee and hot food while hanging with the store owners' 
+                            five cuddly, adorable cats! <br></br>
+
+                            This is no ordinary cat café. We offer essential cat supplies for your own furball. 
+                            If you’re thinking about welcoming a cat into your home, we partner with Petfinder to 
+                            help connect you with rescued cats in need of a loving family. 
+                        </p>
+
+                        <h6 class="fw-bold">=^._.^= </h6>
+
+                        <!-- blockquote credit : https://getbootstrap.com/docs/5.3/content/typography/#blockquotes -->
+                        <blockquote class="blockquote">
+                            <!-- italic credit: https://getbootstrap.com/docs/5.3/utilities/text/ -->
+                            <h3 class="fst-italic"> Coffee, Cats, and Chit-Chat</h1>
+                        </blockquote>
+
                     </div>
 
                     <!-- Hours -->
-                    <div class="col" style="background-color: tan;">
-                        <div class="table">
-                            <thead>
-
-                            </thead>
-                        </div>
-
+                    <div class="col d-flex align-items-center" style="background-color: tan;">
                         <!-- Table credit: https://getbootstrap.com/docs/5.3/content/tables/#overview -->
                         <!-- Table hover credit: https://getbootstrap.com/docs/5.3/content/tables/#hoverable-rows -->
                         <!-- Table border credit: https://getbootstrap.com/docs/5.3/content/tables/#table-borders -->
@@ -108,18 +129,27 @@
                                     <th scope="row">Friday-Saturday</th>
                                     <td>7 A.M. - 12 P.M.</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">Sunday</th>
+                                    <td>Closed (Cat Nap)</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div> 
                 </div>
             </div>
             
-            <!-- Button to About page -->
-            <!-- Button to Menu page -->
+            <!-- Button credit: https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
+            <!-- Centering button credit: https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
+            <!-- Buttons to the About page and Menu page-->
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-3 mb-5">
+                <a class="btn btn-dark" href="about-page.html" role="button">Come Meet Us!</a>
+                <a class="btn btn-dark" href="menu-page.html" role="button">Our Menu!</a>
+            </div>
+
         </main>
 
         <footer>
-
         </footer>
 
         <!-- Linking Bootstrap (JS) -->
