@@ -10,33 +10,35 @@ KEY:
         ▢ Animation 
             > Active on hover ✅
             > Create new onload Animation ↵
-        ▢ Craft mission statement
-        ▢ Embed location
+        ▢ Craft mission statement ✅
+        ▢ Embed location ✅
+        ▢ Style Navbar 
+            // Change text color on hover...could do more maybe
     2. About page
-        ▢ Photo me
-            ▢ ...Bio
+        ▢ Photo me ✅
+            ▢ ...Bio ✅
 
-        ▢ Photo of Erika
-            ▢ ...Bio
+        ▢ Photo of Erika ⬅︎
+            ▢ ...Bio ✅
 
-        ▢ Photo of Sappy
-            ▢ ...Bio
+        ▢ Photo of Sappy ✅
+            ▢ ...Bio ✅
             ▢ animation???
 
-        ▢ Photo of Garden
-            ▢ ...Bio
+        ▢ Photo of Garden ✅
+            ▢ ...Bio ✅
             ▢ animation???
 
-        ▢ Photo of Azula
-            ▢ ...Bio
+        ▢ Photo of Azula ✅
+            ▢ ...Bio ✅
             ▢ animation???
 
-        ▢ Photo of Frankie
-            ▢ ...Bio
+        ▢ Photo of Frankie ✅
+            ▢ ...Bio ✅
             ▢ animation???
 
-        ▢ Photo of River
-            ▢ ...Bio
+        ▢ Photo of River ✅
+            ▢ ...Bio ✅
             ▢ animation???
 
         

@@ -83,3 +83,24 @@ body{
 .col{
     border: 2px solid black;
 }
+
+.navbar-brand:hover{
+    color: green;
+}
+
+/* x <= 576 px */
+@media (max-width: 576px) {
+    .my-owner-img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    /* Your desktop-specific styles here */
+}
