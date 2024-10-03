@@ -107,23 +107,28 @@ body{
     text-align: left;
 }
 
-.my-menu-container img{
-    width: 100%;
-    height: 150px;
-    /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
-    object-fit: cover; /* Cover the area while maintaining aspect ratio */
-}
-
 .shop-page-container img{
-    width: 80%;
-    height: 300px;
+    /* width: 500px;
+    height: auto; */
+    max-width: 100%;
     /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
-    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    /* object-fit: cover;  */
 }
 
+.li-container{
+    width: 100%;
+}
+
+
+/* make second column content scrollable */
+.shop-page-scrollspy{
+    height: 100vh; 
+    overflow-y: auto;
+    padding: 1rem;
+}
 
 /* x <= 576 px */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .my-owner-img{
         width: 250px;
         height: auto;
@@ -132,6 +137,7 @@ body{
 
 /* Tablet Styles */
 @media (min-width: 768px) and (max-width: 1024px) {
+
 }
 
 /* Desktop Styles */

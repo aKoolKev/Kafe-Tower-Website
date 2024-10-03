@@ -45,10 +45,11 @@
         </nav>
     </header>
 
-    <div class="container shop-page-container">
+    <div class="container-fluid shop-page-container">
         <div class="row">
-            <div class="col-4">
-                <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end" style="position: sticky; top: 0;">
+            <!-- Sidebar column -->
+            <div class="col-2 pt-5">
+                <nav id="#shop-page-side-navbar" class="h-100 flex-column align-items-stretch pe-4">
                     <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item-1">Food and Treats</a>
                         <a class="nav-link" href="#item-2">Litter and Hygiene</a>
@@ -58,17 +59,20 @@
                 </nav>
             </div>
           
-            <div class="col-8">
-              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0" style="height: 100vh; overflow-y: auto; padding: 1rem;">
+            <!-- Shop content column -->
+            <div class="col-10">
+              <div data-bs-spy="scroll" data-bs-target="#shop-page-side-navbar" data-bs-smooth-scroll="true" class="shop-page-scrollspy" tabindex="0">
                 <div id="item-1">
-                    <h3 class="m-5">Food and Treats</h3>
+                    <h3 class="m-3">Food and Treats</h3>
                     <!-- list group credit: https://getbootstrap.com/docs/5.3/components/list-group/ -->
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <!-- Img credit: https://www.amazon.com/Wellness-Digestive-Health-Grain-Variety/dp/B0971GP6SM -->
-                                <img src="images/Wellness CORE.jpg" class="img-fluid" alt="Cans of Wellness CORE cat food.">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3" style="border: 2px solid yellow;">
+                            <div class="d-flex justify-content-evenly align-items-center li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://www.amazon.com/Wellness-Digestive-Health-Grain-Variety/dp/B0971GP6SM -->
+                                    <img src="images/Wellness CORE.jpg" class="img-fluid" alt="Cans of Wellness CORE cat food.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">Wet Food:  Wellness CORE Grain-Free Multipack (12 cans)</h5>
                                     <!-- Description -->
@@ -81,11 +85,13 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <!-- Img credit: https://www.petsplusca.com/product/blue-buffalo-wilderness-indoor-chicken-recipe-grain-free-dry-cat-food-5-lb-bag/ -->
-                                <img src="images/Blue Buffalo Wilderness.jpeg" class="img-fluid" alt="Bag of Blue Buffalo Wilderness cat food.">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://www.petsplusca.com/product/blue-buffalo-wilderness-indoor-chicken-recipe-grain-free-dry-cat-food-5-lb-bag/ -->
+                                    <img src="images/Blue Buffalo Wilderness.jpeg" class="img-fluid" alt="Bag of Blue Buffalo Wilderness cat food.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">Dry Food: Blue Buffalo Wilderness (5 lbs bag)</h5>
                                     <!-- Description -->
@@ -98,10 +104,13 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <img src="images/PureBites.jpeg" class="img-fluid" alt="A bag of PureBites cat food.">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://m.media-amazon.com/images/I/81gqUB539FL._AC_SL1500_.jpg -->
+                                    <img src="images/PureBites.jpeg" class="img-fluid" alt="A bag of PureBites cat food.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">PureBites (1.6 oz bag)</h5>
                                     <!-- Description -->
@@ -116,15 +125,17 @@
                         </li>
                     </ul>
                  
-                </div>
+                </div> <!-- End of item 1 -->
                 <div id="item-2">
-                    <h3 class="m-5">Litter and Hygiene</h3>
+                    <h3 class="m-3">Litter and Hygiene</h3>
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <!-- Img credit: https://todaysfreestuff.ca/free-8lb-bag-worlds-best-cat-litter/ -->
-                                <img src="images/World's Best Cat Litter.jpg" class="img-fluid me-3" alt="A bag of the World's Best Cat Litter.">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://todaysfreestuff.ca/free-8lb-bag-worlds-best-cat-litter/ -->
+                                    <img src="images/World's Best Cat Litter.jpg" class="img-fluid" alt="A bag of the World's Best Cat Litter.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">World's Best Cat Litter (8 lbs bag)</h5>
                                     <!-- Description -->
@@ -137,11 +148,13 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <!-- Img credit: https://uk.pinterest.com/pin/petfusion-betterbox-nonstick-large-litter-box--380132024796130306/ -->
-                                <img src="images/PetFusion BetterBox.jpg" class="img-fluid me-3" alt="The petfusion litter box.">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://uk.pinterest.com/pin/petfusion-betterbox-nonstick-large-litter-box--380132024796130306/ -->
+                                    <img src="images/PetFusion BetterBox.jpg" class="img-fluid" alt="The petfusion litter box.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">PetFusion BetterBox</h5>
                                     <!-- Description -->
@@ -157,15 +170,17 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> <!-- End of item 2-->
                 <div id="item-3">
-                    <h3 class="m-5">Health and Wellness</h3>
+                    <h3 class="m-3">Health and Wellness</h3>
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <!-- Img credit: https://www.chewy.com/smartcat-ultimate-32-in-sisal-cat/dp/49134 -->
-                                <img src="images/SmartCat Ultimate Scratching Post.jpeg" class="img-fluid me-3"alt="Cat Food">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://www.chewy.com/smartcat-ultimate-32-in-sisal-cat/dp/49134 -->
+                                    <img src="images/SmartCat Ultimate Scratching Post.jpeg" class="img-fluid px-2" alt="SmartCat Scratching Post">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">SmartCat Ultimate Scratching Post</h5>
                                     <!-- Description -->
@@ -179,11 +194,13 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <!-- Img credit: https://www.walmart.com/ip/FRONTLINE-Plus-for-Cats-and-Kittens-1-5-pounds-and-over-Flea-and-Tick-Treatment-3-Doses/27129758 -->
-                                <img src="images/Frontline Plus.jpeg" class="img-fluid me-3" alt="Frontline Plus fleas and ticks cat treatment.">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://www.walmart.com/ip/FRONTLINE-Plus-for-Cats-and-Kittens-1-5-pounds-and-over-Flea-and-Tick-Treatment-3-Doses/27129758 -->
+                                    <img src="images/Frontline Plus.jpeg" class="img-fluid" alt="Frontline Plus fleas and ticks cat treatment.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">Frontline Plus (3 doses) </h5>
                                     <!-- Description -->
@@ -198,14 +215,17 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> <!-- End of item 3 -->
                 <div id="item-4">
-                    <h3 class="m-5">Toys and Enrichment</h3>
+                    <h3 class="m-3">Toys and Enrichment</h3>
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <img src="images/cat-food.jpg" class="img-fluid me-3" style="width: 100px;" alt="Cat Food">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://www.pet.kiwi/product/catit-senses-2.0-digger/pw42985w.aspx -->
+                                    <img src="images/Catit Senses 2.0 Digger.jpg" class="img-fluid" alt="Catit Senses feeder toy.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">Catit Senses 2.0 Digger</h5>
                                     <!-- Description -->
@@ -220,10 +240,13 @@
                             </div>
             
                         </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center m-5">
-                            <div class="d-flex align-items-center">
-                                <img src="images/cat-food.jpg" class="img-fluid me-3" style="width: 100px;" alt="Cat Food">
-                                <div>
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-3">
+                            <div class="d-flex align-items-center justify-content-evenly li-container">
+                                <div class="d-flex justify-content-center w-50">
+                                    <!-- Img credit: https://www.pinterest.com/pin/545991154815730903/ -->
+                                    <img src="images/PetSafe Pounce Cat Toy.jpg.webp" class="img-fluid" alt="Petsafe Pounce Cat Toy.">
+                                </div>
+                                <div class="w-50">
                                     <!-- Name -->
                                     <h5 class="mb-1">PetSafe Pounce Cat Toy</h5>
                                     <!-- Description -->
@@ -237,13 +260,12 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
 
-
+                </div> <!-- End of item 4 -->
+              </div> <!-- End of scrollable shop content column-->
+            </div> <!-- End of 2nd column -->
+        </div> <!-- End of row-->
+    </div> <!-- End of container -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
