@@ -107,6 +107,20 @@ body{
     text-align: left;
 }
 
+.my-menu-container img{
+    width: 100%;
+    height: 150px;
+    /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.shop-page-container img{
+    width: 100%;
+    height: 300px;
+    /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
 
 /* x <= 576 px */
 @media (max-width: 576px) {
