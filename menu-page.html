@@ -11,336 +11,338 @@
         <!-- Linking CSS file -->
         <link rel="stylesheet" href="styles.css">
     </head>
-<body>
-    <header>
-        <h1 class="text-center m-3">Our Menu!</h1>
-        <!-- Horizontal Navbar -->
-        <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
+    <body>
+        <header>
+            <h1 class="text-center m-3">Our Menu!</h1>
+            <!-- Horizontal Navbar -->
+            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
 
-                <!-- Hamburger menu that appears when it reaches the medium screen sizes -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-container" aria-controls="collapsible-content" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <!-- Hamburger menu that appears when it reaches the medium screen sizes -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-container" aria-controls="collapsible-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse justify-content-center" id="collapsible-container">
-                    <ul class="navbar-nav p-1">
-                        <li class="nav-item p-2">
-                            <a class="navbar-brand" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="navbar-brand" href="about-page.html">ABOUT</a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="navbar-brand" href="menu-page.html">MENU</a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="navbar-brand" href="shop-page.html">SHOP</a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="navbar-brand" href="adopt-page.html">ADOPT</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- End of collapsible container -->
-        </nav>
-       
-    </header>
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsible-container">
+                        <ul class="navbar-nav p-1">
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="about-page.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="menu-page.html">MENU</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="shop-page.html">SHOP</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="navbar-brand" href="adopt-page.html">ADOPT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of collapsible container -->
+            </nav>
+        
+        </header>
 
-    <main>
-        <!-- scrollspy credit: https://getbootstrap.com/docs/5.3/components/scrollspy/ -->
-        <nav id="navbar2" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
-            <h1 class="navbar-brand" style="font-size: 40px;">Our Menu</h1>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspy-drink-section">Drinks</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspy-hot-foods-section">Hot Foods</a>
-                </li>
-            </ul>
-        </nav>
+        <main>
+            <!-- scrollspy credit: https://getbootstrap.com/docs/5.3/components/scrollspy/ -->
+            <nav id="navbar2" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
+                <h1 class="navbar-brand" style="font-size: 40px;">Our Menu</h1>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspy-drink-section">Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspy-hot-foods-section">Hot Foods</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <!-- Content -->
+            <!-- Content -->
 
-        <div class="container-fluid my-menu-container">
-            <div data-bs-spy="scroll" data-bs-target="#navbar2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-                <!-- Drinks -->
-                <h4 class="mt-5">Drinks</h4>
-                <!-- Row #1 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="scrollspy-drink-section">
-                    <!-- Drink #1 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <!-- Img credit: https://insanelygoodrecipes.com/what-to-eat-with-coffee/ -->
-                            <img src="images/Pawfect Brew.png" class="card-img-top" alt="Picture of the Pawfect Brew coffee.">
-                            <div class="card-body">
-                                <h5 class="card-title">Pawfect Brew</h5>
-                                <p class="card-text">Our signature house coffee blend, rich and bold, just like a cat's playful spirit.</p>
+            <div class="container-fluid my-menu-container">
+                <div data-bs-spy="scroll" data-bs-target="#navbar2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <!-- Drinks -->
+                    <h4 class="mt-5">Drinks</h4>
+                    <!-- Row #1 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="scrollspy-drink-section">
+                        <!-- Drink #1 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://insanelygoodrecipes.com/what-to-eat-with-coffee/ -->
+                                <img src="images/Pawfect Brew.png" class="card-img-top" alt="Picture of the Pawfect Brew coffee.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pawfect Brew</h5>
+                                    <p class="card-text">Our signature house coffee blend, rich and bold, just like a cat's playful spirit.</p>
+                                </div>
+                                <!-- Kitchen sink credit: https://getbootstrap.com/docs/5.3/components/card/#kitchen-sink -->
+                                <!-- Price -->
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- The size -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Small (12 oz):</li>
+                                        <li class="list-group-item">Medium (16 oz):</li>
+                                        <li class="list-group-item">Large (20 oz):</li>
+                                    </ul>
+                                    <!-- The price -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">$3.50</li>
+                                        <li class="list-group-item">$4.50</li>
+                                        <li class="list-group-item">$5.50</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- Kitchen sink credit: https://getbootstrap.com/docs/5.3/components/card/#kitchen-sink -->
-                            <!-- Price -->
-                            <div class="d-flex flex-row justify-content-center">
-                                <!-- The size -->
+                        </div>
+                        <!-- Drink #2 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://www.pinterest.com/pin/514254851170534763/ -->
+                                <img src="images/Catpuccino.jpg" class="card-img-top" alt="A picture of the Catpuccino coffee.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Catpuccino</h5>
+                                    <p class="card-text">A classic cappuccino with steamed milk and fluffy foam, topped with paw-print latte art.</p>
+                                </div>
+                                <!-- Price -->
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- The size -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Small (12 oz):</li>
+                                        <li class="list-group-item">Medium (16 oz):</li>
+                                        <li class="list-group-item">Large (20 oz):</li>
+                                    </ul>
+                                    <!-- The price -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">$4.00</li>
+                                        <li class="list-group-item">$5.00</li>
+                                        <li class="list-group-item">$6.00</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Drink #3 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: http://foodcraverhk.blogspot.com/2015/03/Cafernc.html -->
+                                <img src="images/Kitty Latte.jpg" class="card-img-top" alt="A picture of the Kitty Latte.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kitty Latte</h5>
+                                    <p class="card-text">Smooth espresso with velvety steamed milk, perfect for a cozy cuddle.</p>
+                                </div>
+                                <!-- Price -->
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- The size -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Small (12 oz):</li>
+                                        <li class="list-group-item">Medium (16 oz):</li>
+                                        <li class="list-group-item">Large (20 oz):</li>
+                                    </ul>
+                                    <!-- The price -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">$4.50</li>
+                                        <li class="list-group-item">$5.50</li>
+                                        <li class="list-group-item">$6.50</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Drink #4 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://dinewithdrinks.com/how-to-drink-a-macchiato -->
+                                <img src="images/Whisker Macchiato.jpg" class="card-img-top" alt="A picture of the Whisker Macchiato.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Whisker Macchiato</h5>
+                                    <p class="card-text">Espresso with a dash of milk and a drizzle of caramel, designed with whisker-like swirls.</p>
+                                </div>
+                                <!-- Price -->
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- The size -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Small (12 oz):</li>
+                                        <li class="list-group-item">Medium (16 oz):</li>
+                                        <li class="list-group-item">Large (20 oz):</li>
+                                    </ul>
+                                    <!-- The price -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">$4.75</li>
+                                        <li class="list-group-item">$5.75</li>
+                                        <li class="list-group-item">$6.75</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Drink #5 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <img src="images/Claw-some Cold Brew.jpg" class="card-img-top" alt="A picture of the Claw-some Cold Brew.">
+                                <div class="card-body">
+                                    <!-- Img credit: https://insanelygoodrecipes.com/coffee-recipes/ -->
+                                    <h5 class="card-title">Claw-some Cold Brew</h5>
+                                    <p class="card-text">Cold-brewed coffee with a deep, smooth flavor, served chilled for a refreshing sip.</p>
+                                </div>
+                                <!-- Price -->
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- The size -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Small (12 oz):</li>
+                                        <li class="list-group-item">Medium (16 oz):</li>
+                                        <li class="list-group-item">Large (20 oz):</li>
+                                    </ul>
+                                    <!-- The price -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">$4.00</li>
+                                        <li class="list-group-item">$5.00</li>
+                                        <li class="list-group-item">$6.00</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Drink #6 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <img src="images/Purrfect Americano.jpg" class="card-img-top" alt="A picture of the Purrfect Americano.">
+                                <div class="card-body">
+                                    <!-- Img credit: https://coffeforus.com/americano-coffee-recipe/ -->
+                                    <h5 class="card-title">Purrfect Americano</h5>
+                                    <p class="card-text">Strong espresso diluted with hot water, giving you that bold, simple energy.</p>
+                                </div>
+
+                                <!-- Price -->
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- The size -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Small (12 oz):</li>
+                                        <li class="list-group-item">Medium (16 oz):</li>
+                                        <li class="list-group-item">Large (20 oz):</li>
+                                    </ul>
+                                    <!-- The price -->
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">$3.00</li>
+                                        <li class="list-group-item">$4.00</li>
+                                        <li class="list-group-item">$5.00</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End of row 1 -->
+
+                    <!-- Hot Foods -->
+                    <h4 class="mt-5">Hot Foods</h4>
+                    <!-- Row #2 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="scrollspy-hot-foods-section">
+                        <!-- Food #1 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://cookmomma.com/cook-perfect-quiche/ -->
+                                <img src="images/Kitty's Quiche.jpg" class="card-img-top" alt="A picture of the Kitty's Quiche.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kitty's Quiche</h5>
+                                    <p class="card-text">A savory quiche with options like spinach and cheese or ham and mushroom, baked in a cat-shaped dish.</p>
+                                </div>
+                        
+                                <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Small (12 oz):</li>
-                                    <li class="list-group-item">Medium (16 oz):</li>
-                                    <li class="list-group-item">Large (20 oz):</li>
-                                </ul>
-                                <!-- The price -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">$3.50</li>
-                                    <li class="list-group-item">$4.50</li>
-                                    <li class="list-group-item">$5.50</li>
+                                    <li class="list-group-item text-center">$6.00</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <!-- Drink #2 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <!-- Img credit: https://www.pinterest.com/pin/514254851170534763/ -->
-                            <img src="images/Catpuccino.jpg" class="card-img-top" alt="A picture of the Catpuccino coffee.">
-                            <div class="card-body">
-                                <h5 class="card-title">Catpuccino</h5>
-                                <p class="card-text">A classic cappuccino with steamed milk and fluffy foam, topped with paw-print latte art.</p>
-                            </div>
-                            <!-- Price -->
-                            <div class="d-flex flex-row justify-content-center">
-                                <!-- The size -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Small (12 oz):</li>
-                                    <li class="list-group-item">Medium (16 oz):</li>
-                                    <li class="list-group-item">Large (20 oz):</li>
-                                </ul>
-                                <!-- The price -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">$4.00</li>
-                                    <li class="list-group-item">$5.00</li>
-                                    <li class="list-group-item">$6.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Drink #3 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <!-- Img credit: http://foodcraverhk.blogspot.com/2015/03/Cafernc.html -->
-                            <img src="images/Kitty Latte.jpg" class="card-img-top" alt="A picture of the Kitty Latte.">
-                            <div class="card-body">
-                                <h5 class="card-title">Kitty Latte</h5>
-                                <p class="card-text">Smooth espresso with velvety steamed milk, perfect for a cozy cuddle.</p>
-                            </div>
-                            <!-- Price -->
-                            <div class="d-flex flex-row justify-content-center">
-                                <!-- The size -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Small (12 oz):</li>
-                                    <li class="list-group-item">Medium (16 oz):</li>
-                                    <li class="list-group-item">Large (20 oz):</li>
-                                </ul>
-                                <!-- The price -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">$4.50</li>
-                                    <li class="list-group-item">$5.50</li>
-                                    <li class="list-group-item">$6.50</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Drink #4 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <!-- Img credit: https://dinewithdrinks.com/how-to-drink-a-macchiato -->
-                            <img src="images/Whisker Macchiato.jpg" class="card-img-top" alt="A picture of the Whisker Macchiato.">
-                            <div class="card-body">
-                                <h5 class="card-title">Whisker Macchiato</h5>
-                                <p class="card-text">Espresso with a dash of milk and a drizzle of caramel, designed with whisker-like swirls.</p>
-                            </div>
-                            <!-- Price -->
-                            <div class="d-flex flex-row justify-content-center">
-                                <!-- The size -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Small (12 oz):</li>
-                                    <li class="list-group-item">Medium (16 oz):</li>
-                                    <li class="list-group-item">Large (20 oz):</li>
-                                </ul>
-                                <!-- The price -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">$4.75</li>
-                                    <li class="list-group-item">$5.75</li>
-                                    <li class="list-group-item">$6.75</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Drink #5 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <img src="images/Claw-some Cold Brew.jpg" class="card-img-top" alt="A picture of the Claw-some Cold Brew.">
-                            <div class="card-body">
-                                <!-- Img credit: https://insanelygoodrecipes.com/coffee-recipes/ -->
-                                <h5 class="card-title">Claw-some Cold Brew</h5>
-                                <p class="card-text">Cold-brewed coffee with a deep, smooth flavor, served chilled for a refreshing sip.</p>
-                            </div>
-                            <!-- Price -->
-                            <div class="d-flex flex-row justify-content-center">
-                                <!-- The size -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Small (12 oz):</li>
-                                    <li class="list-group-item">Medium (16 oz):</li>
-                                    <li class="list-group-item">Large (20 oz):</li>
-                                </ul>
-                                <!-- The price -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">$4.00</li>
-                                    <li class="list-group-item">$5.00</li>
-                                    <li class="list-group-item">$6.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Drink #6 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <img src="images/Purrfect Americano.jpg" class="card-img-top" alt="A picture of the Purrfect Americano.">
-                            <div class="card-body">
-                                <!-- Img credit: https://coffeforus.com/americano-coffee-recipe/ -->
-                                <h5 class="card-title">Purrfect Americano</h5>
-                                <p class="card-text">Strong espresso diluted with hot water, giving you that bold, simple energy.</p>
-                            </div>
 
-                            <!-- Price -->
-                            <div class="d-flex flex-row justify-content-center">
-                                <!-- The size -->
+                        <!-- Food #2 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <img src="images/Catnip Croissant.jpeg" class="card-img-top" alt="A picture of the Catnip Croissant.">
+                                <div class="card-body">
+                                    <!-- Img credit: https://elmercadobangkok.com/product/french-butter-chocolate-croissant/ -->
+                                    <h5 class="card-title">Catnip Croissant</h5>
+                                    <p class="card-text"> A buttery croissant, served with a warm, chocolate filling.</p>
+                                </div>
+                        
+                                <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Small (12 oz):</li>
-                                    <li class="list-group-item">Medium (16 oz):</li>
-                                    <li class="list-group-item">Large (20 oz):</li>
-                                </ul>
-                                <!-- The price -->
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">$3.00</li>
-                                    <li class="list-group-item">$4.00</li>
-                                    <li class="list-group-item">$5.00</li>
+                                    <li class="list-group-item text-center">$4.50</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div> <!-- End of row 1 -->
 
-                <!-- Hot Foods -->
-                <h4 class="mt-5">Hot Foods</h4>
-                <!-- Row #2 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="scrollspy-hot-foods-section">
-                    <!-- Food #1 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <!-- Img credit: https://cookmomma.com/cook-perfect-quiche/ -->
-                            <img src="images/Kitty's Quiche.jpg" class="card-img-top" alt="A picture of the Kitty's Quiche.">
-                            <div class="card-body">
-                                <h5 class="card-title">Kitty's Quiche</h5>
-                                <p class="card-text">A savory quiche with options like spinach and cheese or ham and mushroom, baked in a cat-shaped dish.</p>
+                        <!-- Food #3 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img Credit: https://wowfundraising.com/product/otis-9-pack-variety-muffins -->
+                                <img src="images/Meowffins.jpg" class="card-img-top" alt="A picture of the meowffins.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Meowffins</h5>
+                                    <p class="card-text">Freshly baked muffins, available in flavors like blueberry, banana-nut, and chocolate chip.</p>
+                                </div>
+                        
+                                <!-- Price -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center">$3.00</li>
+                                </ul>
                             </div>
+                        </div>
+
+                        <!-- Food #4 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://www.bagelcafebakery.com -->
+                                <img src="images/Pawsome Bagels.jpeg" class="card-img-top" alt="A picture of the Pawsome Bagels.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pawsome Bagels</h5>
+                                    <p class="card-text">Warm, toasted bagels with spreads such as cream cheese, butter, or jam.</p>
+                                </div>
+                        
+                                <!-- Price -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center">$3.00</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Food #5 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://www.cefnmablyfarmpark.com/shop -->
+                                <img src="images/Kitty’s Claw-some Grilled Cheese.png" class="card-img-top" alt="A picture of the Kitty's Claw-some Grilled Cheese.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kitty’s Claw-some Grilled Cheese</h5>
+                                    <p class="card-text">A crispy, gooey grilled cheese sandwich with a mix of cheddar and mozzarella, shaped like a cat paw.</p>
+                                </div>
+                        
+                                <!-- Price -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center">$5.50</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Food #6 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card">
+                                <!-- Img credit: https://www.dinneratthezoo.com/grilled-chicken-kabobs/ -->
+                                <img src="images/Meow-licious Kabobs.jpeg" class="card-img-top" alt="A picture of the Meow-licious Kabobs.">
+                                <div class="card-body">
+                                    <h5 class="card-title">Meow-licious Kabobs</h5>
+                                    <p class="card-text">Skewers of grilled chicken or veggies, served with a savory dipping sauce, perfect for a light yet filling snack.</p>
+                                </div>
+                        
+                                <!-- Price -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center">$8.00</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div> <!-- End of row 2 -->
+
                     
-                            <!-- Price -->
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center">$6.00</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Food #2 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <img src="images/Catnip Croissant.jpeg" class="card-img-top" alt="A picture of the Catnip Croissant.">
-                            <div class="card-body">
-                                <!-- Img credit: https://elmercadobangkok.com/product/french-butter-chocolate-croissant/ -->
-                                <h5 class="card-title">Catnip Croissant</h5>
-                                <p class="card-text"> A buttery croissant, served with a warm, chocolate filling.</p>
-                            </div>
-                    
-                            <!-- Price -->
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center">$4.50</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Food #3 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <!-- Img Credit: https://wowfundraising.com/product/otis-9-pack-variety-muffins -->
-                            <img src="images/Meowffins.jpg" class="card-img-top" alt="A picture of the meowffins.">
-                            <div class="card-body">
-                                <h5 class="card-title">Meowffins</h5>
-                                <p class="card-text">Freshly baked muffins, available in flavors like blueberry, banana-nut, and chocolate chip.</p>
-                            </div>
-                    
-                            <!-- Price -->
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center">$3.00</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Food #4 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Pawsome Bagels</h5>
-                                <p class="card-text">Warm, toasted bagels with spreads such as cream cheese, butter, or jam.</p>
-                            </div>
-                    
-                            <!-- Price -->
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center">$3.00</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Food #5 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Kitty’s Claw-some Grilled Cheese</h5>
-                                <p class="card-text">A crispy, gooey grilled cheese sandwich with a mix of cheddar and mozzarella, shaped like a cat paw.</p>
-                            </div>
-                    
-                            <!-- Price -->
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center">$5.50</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Food #6 -->
-                    <div class="col d-flex justify-content-center">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Kitten Kabobs</h5>
-                                <p class="card-text">Skewers of grilled chicken or veggies, served with a savory dipping sauce, perfect for a light yet filling snack.</p>
-                            </div>
-                    
-                            <!-- Price -->
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center">$8.00</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div> <!-- End of row 2 -->
-
-                
-            </div> <!-- End of scroll container-->
-        </div>
-    </main>
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+                </div> <!-- End of scroll container-->
+            </div>
+        </main>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
