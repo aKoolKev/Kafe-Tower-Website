@@ -88,6 +88,18 @@ body{
     color: green;
 }
 
+/* Menu-page styles */
+.my-menu-container .card{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+.my-menu-container .list-group .list-group-item{
+    text-align: left;
+}
+
+
 /* x <= 576 px */
 @media (max-width: 576px) {
     .my-owner-img{

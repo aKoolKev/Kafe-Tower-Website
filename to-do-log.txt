@@ -14,6 +14,9 @@ KEY:
         ▢ Embed location ✅
         ▢ Style Navbar 
             // Change text color on hover...could do more maybe
+
+        ▢ Finalize CSS
+        
     2. About page
         ▢ Photo me ✅
             ▢ ...Bio ✅
@@ -40,6 +43,14 @@ KEY:
         ▢ Photo of River ✅
             ▢ ...Bio ✅
             ▢ animation???
+
+        ▢ Finalize CSS 
+
+    3. Menu
+        ▢ Find photos for all drinks ⬅︎
+        ▢ Find photos for all hot foods ⬅︎
+        ▢ Style with CSS 
+
 
         
 
