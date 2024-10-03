@@ -50,6 +50,13 @@ KEY:
         ▢ Find photos for all drinks ✅
         ▢ Find photos for all hot foods ✅
         ▢ Style with CSS 
+    
+    4. Shop
+        ▢ Create layout and content ✅
+        ▢ Find photos for all items 
+        ▢ Create drop down menu 
+        
+
 
 
         
