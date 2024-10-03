@@ -95,6 +95,13 @@ body{
     margin: 10px;
     text-align: center;
 }
+
+.my-menu-container img{
+    width: 100%; /* Make the image responsive */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
 .my-menu-container .list-group .list-group-item{
     text-align: left;
 }
