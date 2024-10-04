@@ -1,17 +1,17 @@
 KEY:
-✅  "Done"
-▢   "Task"
-❌   "In progress"
+    ▢   "Task"
+    ✅  "Completed"
+    ❌   "Incomplete"
 
 
 
 1. Home page 
     ▢ Animation 
         > Active on hover ✅
-        > Create new onload Animation ↵
+        > Create new onload Animation ❌
     ▢ Craft mission statement ✅
     ▢ Embed location ✅
-    ▢ Style Navbar 
+    ▢ Style Navbar ❌
         // Change text color on hover...could do more maybe
 
     ▢ Finalize CSS ❌
@@ -20,7 +20,7 @@ KEY:
     ▢ Photo me ✅
         ▢ ...Bio ✅
 
-    ▢ Photo of Erika ⬅︎
+    ▢ Photo of Erika ❌
         ▢ ...Bio ✅
 
     ▢ Photo of Sappy ✅
@@ -54,7 +54,15 @@ KEY:
     ▢ Create layout and content ✅
     ▢ Find photos for all items ✅
     ▢ Need to make sidebar turn into horizontal side bar on small devices ✅
-    ▢ Finalize CSS ✅
+    ▢ Finalize CSS ❌
+
+5. Adopt
+    ▢ Create layout ❌
+    ▢ Add content ❌
+    ▢ Intro para ❌
+
+    ▢ Finalize CSS ❌
+
     
 
     
