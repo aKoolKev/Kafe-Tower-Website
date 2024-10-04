@@ -1,65 +1,67 @@
 KEY:
 ✅  "Done"
 ▢   "Task"
-⬅︎ ↵   "In progress"
+❌   "In progress"
 
 
 
-9/30 (MON)
-    1. Home page ⬅︎
-        ▢ Animation 
-            > Active on hover ✅
-            > Create new onload Animation ↵
-        ▢ Craft mission statement ✅
-        ▢ Embed location ✅
-        ▢ Style Navbar 
-            // Change text color on hover...could do more maybe
+1. Home page 
+    ▢ Animation 
+        > Active on hover ✅
+        > Create new onload Animation ↵
+    ▢ Craft mission statement ✅
+    ▢ Embed location ✅
+    ▢ Style Navbar 
+        // Change text color on hover...could do more maybe
 
-        ▢ Finalize CSS
+    ▢ Finalize CSS ❌
 
-    2. About page
-        ▢ Photo me ✅
-            ▢ ...Bio ✅
+2. About page
+    ▢ Photo me ✅
+        ▢ ...Bio ✅
 
-        ▢ Photo of Erika ⬅︎
-            ▢ ...Bio ✅
+    ▢ Photo of Erika ⬅︎
+        ▢ ...Bio ✅
 
-        ▢ Photo of Sappy ✅
-            ▢ ...Bio ✅
-            ▢ animation???
+    ▢ Photo of Sappy ✅
+        ▢ ...Bio ✅
+        ▢ animation???
 
-        ▢ Photo of Garden ✅
-            ▢ ...Bio ✅
-            ▢ animation???
+    ▢ Photo of Garden ✅
+        ▢ ...Bio ✅
+        ▢ animation???
 
-        ▢ Photo of Azula ✅
-            ▢ ...Bio ✅
-            ▢ animation???
+    ▢ Photo of Azula ✅
+        ▢ ...Bio ✅
+        ▢ animation???
 
-        ▢ Photo of Frankie ✅
-            ▢ ...Bio ✅
-            ▢ animation???
+    ▢ Photo of Frankie ✅
+        ▢ ...Bio ✅
+        ▢ animation???
 
-        ▢ Photo of River ✅
-            ▢ ...Bio ✅
-            ▢ animation???
+    ▢ Photo of River ✅
+        ▢ ...Bio ✅
+        ▢ animation???
 
-        ▢ Finalize CSS 
+    ▢ Finalize CSS ❌
 
-    3. Menu
-        ▢ Find photos for all drinks ✅
-        ▢ Find photos for all hot foods ✅
-        ▢ Style with CSS 
+3. Menu
+    ▢ Find photos for all drinks ✅
+    ▢ Find photos for all hot foods ✅
+    ▢ Style with CSS ❌
+
+4. Shop
+    ▢ Create layout and content ✅
+    ▢ Find photos for all items ✅
+    ▢ Need to make sidebar turn into horizontal side bar on small devices ✅
+    ▢ Finalize CSS ✅
     
-    4. Shop
-        ▢ Create layout and content ✅
-        ▢ Find photos for all items 
-        ▢ Create drop down menu 
-        
+
+    
 
 
 
-        
+    
 
 
 

@@ -107,18 +107,9 @@ body{
     text-align: left;
 }
 
-.shop-page-container img{
-    /* width: 500px;
-    height: auto; */
-    max-width: 100%;
-    /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
-    /* object-fit: cover;  */
-}
 
-.li-container{
-    width: 100%;
-}
 
+/* Shop-page styles */
 
 /* make second column content scrollable */
 .shop-page-scrollspy{
@@ -127,11 +118,38 @@ body{
     padding: 1rem;
 }
 
+.li-container{
+    width: 100%;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 0px 5px;
+}
+
+
 /* x <= 576 px */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .my-owner-img{
         width: 250px;
         height: auto;
+    }
+
+    /* Shop-page breakpoint */
+    .li-container {
+        flex-direction: column;
+    }
+    .li-container h5, .li-container h6{
+        text-align: center;
+    }
+
+    .shop-page-scrollspy{
+        height: 100vh; 
+        overflow-y: visible;
+    }
+    .shop-page-container{
+        margin-bottom: 50px;
+        padding-bottom: 100px;
     }
 }
 
