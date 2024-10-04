@@ -1,4 +1,5 @@
 
+/* ANIMATION CODE */
 .reveal-upward{
     animation: reveal-upward 1s ease-in 2.3s forwards;
 }
@@ -75,17 +76,25 @@
     /* opacity: 0; */
 }
 
+
 /* */
 body{
     background-color: rgb(227, 208, 208);
 }
 
-.col{
+/* WHAT DOES THIS DO?? */
+/* .col{
     border: 2px solid black;
-}
+} */
 
+/* Webpage Horizontal Navbar */
 .navbar-brand:hover{
     color: green;
+}
+.webpage-nav-bar{
+    height: fit-content;
+    padding: 5px;
+    background-color: red;
 }
 
 /* Menu-page styles */
@@ -130,12 +139,16 @@ body{
 
 /* x <= 576 px */
 @media (max-width: 576px) {
+
+    /* WHICH WEBPAGE THIS BELONG TO?? */
     .my-owner-img{
         width: 250px;
         height: auto;
     }
 
     /* Shop-page breakpoint */
+
+        /* content stack on top each other */
     .li-container {
         flex-direction: column;
     }
@@ -143,13 +156,10 @@ body{
         text-align: center;
     }
 
+    /* Toggle off vertical scroll on smaller devices */
     .shop-page-scrollspy{
         height: 100vh; 
         overflow-y: visible;
-    }
-    .shop-page-container{
-        margin-bottom: 50px;
-        padding-bottom: 100px;
     }
 }
 

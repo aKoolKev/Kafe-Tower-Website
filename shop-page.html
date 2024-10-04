@@ -12,7 +12,7 @@
         <header>
             <h1>Shop</h1>
             <!-- Horizontal Navbar -->
-            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark fixed-top" data-bs-theme="dark">
                 <div class="container-fluid">
 
                     <!-- Hamburger menu that appears when it reaches the medium screen sizes -->
@@ -50,7 +50,7 @@
 
                 <!-- Vertical sidebar only visible on small devices and up -->
                 <!-- Hiding Element resource credit: https://getbootstrap.com/docs/5.3/utilities/display/ -->
-                <div class="col-2 pt-5 d-none d-sm-block"> 
+                <div class="col-2 pt-5 d-none d-md-block"> 
                     <nav id="shop-page-side-navbar" class="h-100">
                         <nav class="nav nav-pills">
                             <a class="nav-link" href="#item-1">Food & Treats</a>
@@ -62,7 +62,7 @@
                 </div>
 
                 <!-- Horizontal navbar only visible on small devices -->
-                <nav class="navbar bg-body-tertiary shop-page-horizontal-navbar fixed-bottom d-sm-none">
+                <nav class="navbar bg-body-tertiary shop-page-horizontal-navbar fixed-bottom d-md-none">
                     <div class="container-fluid">
                         <ul class="navbar-nav w-100 d-flex flex-row justify-content-evenly">
                             <li class="nav-item btn mx-3">
@@ -82,7 +82,7 @@
                 </nav>
 
                 <!-- Shop content column -->
-                <div class="col-sm-12 col-md-10">
+                <div class="col-sm-11 col-md-10">
                     <div data-bs-spy="scroll" data-bs-target="#shop-page-side-navbar" data-bs-smooth-scroll="true" class="shop-page-scrollspy" tabindex="0">
                         <div id="item-1">
                             <h3 class="pt-3">Food & Treats</h3>
