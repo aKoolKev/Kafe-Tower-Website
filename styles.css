@@ -87,15 +87,18 @@ body{
     border: 2px solid black;
 } */
 
-/* Webpage Horizontal Navbar */
-.navbar-brand:hover{
-    color: green;
-}
-.webpage-nav-bar{
-    height: fit-content;
-    padding: 5px;
-    background-color: red;
-}
+/* WEBSITE NAVBAR STYLE */
+
+    /* Hover effect */
+    .navbar-brand:hover{
+        color: green;
+    }
+
+    /* Collapsible button styling */
+    .navbar-toggler{
+        margin: 10px;
+    }
+
 
 /* Menu-page styles */
 .my-menu-container .card{
