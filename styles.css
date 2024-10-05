@@ -135,6 +135,7 @@ h1, h2, h3, h4, h5, h6{
         margin: 10px;
     }
 
+
 /* ABOUT PAGE STYLES */
     .about-page-card-text{
         text-align: justify;
@@ -145,16 +146,16 @@ h1, h2, h3, h4, h5, h6{
         border-radius: 10px;
     }
     #cat-carousel{
-        background-color: white;
+        background-color: #f92c8525;
+    }
+    #cat-carousel .carousel-control-prev, #cat-carousel .carousel-control-next {
+        font-size: 100px;
     }
     .about-page-img{
         height: 400px; 
         width: auto; 
         margin-top: 25px; 
-        margin-bottom: 150px;
-    }
-    .carousel-caption{
-        color: black;
+        margin-bottom: 20px;
     }
 
 
@@ -185,9 +186,9 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .menu-page-scrollspy {
-        right: 0; /* Push the navbar to the rightmost side */
-        left: auto; /* Ensures that it doesn't stay attached to the left side */
-        position: fixed; /* Keeps it fixed at the top */
+        right: 0;
+        left: auto;
+        position: fixed;
         width: fit-content;
     }
     .menu-page-scrollspy .nav-link.active {
@@ -259,6 +260,18 @@ h1, h2, h3, h4, h5, h6{
         width: 250px;
         height: auto;
     }
+    #cat-carousel .carousel-control-prev, #cat-carousel .carousel-control-next {
+        font-size: 50px;
+    }
+    .about-page-img{
+        height: 300px; 
+        margin-top: 25px; 
+        margin-bottom: 20px;
+    }
+    .about-page-card-text{
+        text-align: justify;
+        text-indent: 20px;
+    }
 
     /* SHOP PAGE BREAKPOINT */
     .li-container {
@@ -282,6 +295,11 @@ h1, h2, h3, h4, h5, h6{
         text-align: center;
         border-bottom: none;
     }
+    .carousel-para{
+        text-align: justify;
+    }
+
+   
 }
 
 /* Tablet Styles */
@@ -291,6 +309,11 @@ h1, h2, h3, h4, h5, h6{
     .adopt-page-carousel-img{
         width: 450px;
         height: auto;
+    }
+
+    /* ABOUT PAGE BREAKPOINT */
+    #cat-carousel .carousel-control-prev, #cat-carousel .carousel-control-next {
+        font-size: 75px;
     }
 
 }
@@ -303,5 +326,6 @@ h1, h2, h3, h4, h5, h6{
         width: 450px;
         height: auto;
     }
+
 
 }
