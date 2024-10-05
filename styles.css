@@ -159,18 +159,26 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-/* Shop-page styles */
+/* SHOP PAGE STYLES */
+    .shop-page-scrollspy{
+        height: 100vh; 
+        overflow-y: auto;
+        padding: 1rem;
+    }
 
-/* make second column content scrollable */
-.shop-page-scrollspy{
-    height: 100vh; 
-    overflow-y: auto;
-    padding: 1rem;
-}
+    .li-container{
+        width: 100%;
+    }
 
-.li-container{
-    width: 100%;
-}
+    #shop-page-side-navbar .nav-link.active {
+        background-color: #F92C85;
+        color: white;
+    }
+    
+    #shop-page-side-navbar .nav-link {
+        color: black;
+    }
+    
 
 /* ADOPT PAGE STYLES */
     .adopt-page-about-para{

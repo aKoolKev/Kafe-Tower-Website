@@ -23,13 +23,9 @@ KEY:
     ▢ Style with CSS ❌
 
 4. Shop
-    ▢ Finalize CSS ❌
+    ▢ Finalize CSS ✅
 
 5. Adopt
-    ▢ Create layout ✅
-    ▢ Add content ✅
-    ▢ Intro para ✅
-    ▢ Select Typography ✅
     ▢ Finalize CSS ✅
 
     
