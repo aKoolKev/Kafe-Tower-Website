@@ -10,12 +10,16 @@
 
         <!-- Linking CSS file -->
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Google font: https://fonts.google.com/selection?preview.layout=grid&stroke=Slab+Serif -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1 class="text-center m-3">Our Menu!</h1>
             <!-- Horizontal Navbar -->
-            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark https://github.com/aKoolKev/Katfe-Tower-Website.git" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark fixed-top" data-bs-theme="dark">
                 <div class="container-fluid">
 
                     <!-- Hamburger menu that appears when it reaches the medium screen sizes -->
@@ -23,8 +27,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <!-- Collapsible content -->
+                    <!-- Collapisble content -->
                     <div class="collapse navbar-collapse justify-content-center" id="collapsible-container">
+
                         <ul class="navbar-nav p-1">
                             <li class="nav-item p-2">
                                 <a class="navbar-brand" href="index.html">HOME</a>
@@ -42,18 +47,19 @@
                                 <a class="navbar-brand" href="adopt-page.html">ADOPT</a>
                             </li>
                         </ul>
-                    </div>
-                    <!-- End of collapsible container -->
+                    </div><!--End of collapsible continer-->
+                </div> <!--End of container-->
             </nav>
-        
         </header>
 
         <main>
+            <h1 class="mt-5 pt-4 text-center">Our Menu!</h1>
+
             <!-- scrollspy credit: https://getbootstrap.com/docs/5.3/components/scrollspy/ -->
-            <nav id="navbar2" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
-                <h1 class="navbar-brand" style="font-size: 40px;">Our Menu</h1>
+            <nav id="navbar2" class="navbar menu-page-scrollspy px-3 mb-3 fixed-top">
+                <h1 class="navbar-brand" style="font-size: 40px;"></h1>
                 <ul class="nav nav-pills">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#scrollspy-drink-section">Drinks</a>
                     </li>
                     <li class="nav-item">
@@ -65,7 +71,7 @@
             <!-- Content -->
 
             <div class="container-fluid my-menu-container">
-                <div data-bs-spy="scroll" data-bs-target="#navbar2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <div data-bs-spy="scroll" data-bs-target="#navbar2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
                     <!-- Drinks -->
                     <h4 class="mt-5">Drinks</h4>
                     <!-- Row #1 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
@@ -90,9 +96,9 @@
                                     </ul>
                                     <!-- The price -->
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">$3.50</li>
-                                        <li class="list-group-item">$4.50</li>
-                                        <li class="list-group-item">$5.50</li>
+                                        <li class="list-group-item menu-price">$3.50</li>
+                                        <li class="list-group-item menu-price">$4.50</li>
+                                        <li class="list-group-item menu-price">$5.50</li>
                                     </ul>
                                 </div>
                             </div>
@@ -116,9 +122,9 @@
                                     </ul>
                                     <!-- The price -->
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">$4.00</li>
-                                        <li class="list-group-item">$5.00</li>
-                                        <li class="list-group-item">$6.00</li>
+                                        <li class="list-group-item menu-price">$4.00</li>
+                                        <li class="list-group-item menu-price">$5.00</li>
+                                        <li class="list-group-item menu-price">$6.00</li>
                                     </ul>
                                 </div>
                             </div>
@@ -142,9 +148,9 @@
                                     </ul>
                                     <!-- The price -->
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">$4.50</li>
-                                        <li class="list-group-item">$5.50</li>
-                                        <li class="list-group-item">$6.50</li>
+                                        <li class="list-group-item menu-price">$4.50</li>
+                                        <li class="list-group-item menu-price">$5.50</li>
+                                        <li class="list-group-item menu-price">$6.50</li>
                                     </ul>
                                 </div>
                             </div>
@@ -168,9 +174,9 @@
                                     </ul>
                                     <!-- The price -->
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">$4.75</li>
-                                        <li class="list-group-item">$5.75</li>
-                                        <li class="list-group-item">$6.75</li>
+                                        <li class="list-group-item menu-price">$4.75</li>
+                                        <li class="list-group-item menu-price">$5.75</li>
+                                        <li class="list-group-item menu-price">$6.75</li>
                                     </ul>
                                 </div>
                             </div>
@@ -194,9 +200,9 @@
                                     </ul>
                                     <!-- The price -->
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">$4.00</li>
-                                        <li class="list-group-item">$5.00</li>
-                                        <li class="list-group-item">$6.00</li>
+                                        <li class="list-group-item menu-price">$4.00</li>
+                                        <li class="list-group-item menu-price">$5.00</li>
+                                        <li class="list-group-item menu-price">$6.00</li>
                                     </ul>
                                 </div>
                             </div>
@@ -221,9 +227,9 @@
                                     </ul>
                                     <!-- The price -->
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">$3.00</li>
-                                        <li class="list-group-item">$4.00</li>
-                                        <li class="list-group-item">$5.00</li>
+                                        <li class="list-group-item menu-price">$3.00</li>
+                                        <li class="list-group-item menu-price">$4.00</li>
+                                        <li class="list-group-item menu-price">$5.00</li>
                                     </ul>
                                 </div>
                             </div>
@@ -246,7 +252,7 @@
                         
                                 <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-center">$6.00</li>
+                                    <li class="list-group-item text-center menu-price">$6.00</li>
                                 </ul>
                             </div>
                         </div>
@@ -263,7 +269,7 @@
                         
                                 <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-center">$4.50</li>
+                                    <li class="list-group-item text-center menu-price">$4.50</li>
                                 </ul>
                             </div>
                         </div>
@@ -280,7 +286,7 @@
                         
                                 <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-center">$3.00</li>
+                                    <li class="list-group-item text-center menu-price">$3.00</li>
                                 </ul>
                             </div>
                         </div>
@@ -297,7 +303,7 @@
                         
                                 <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-center">$3.00</li>
+                                    <li class="list-group-item text-center menu-price">$3.00</li>
                                 </ul>
                             </div>
                         </div>
@@ -314,7 +320,7 @@
                         
                                 <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-center">$5.50</li>
+                                    <li class="list-group-item text-center menu-price">$5.50</li>
                                 </ul>
                             </div>
                         </div>
@@ -331,7 +337,7 @@
                         
                                 <!-- Price -->
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-center">$8.00</li>
+                                    <li class="list-group-item text-center menu-price">$8.00</li>
                                 </ul>
                             </div>
                         </div>

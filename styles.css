@@ -138,24 +138,47 @@ h1, h2, h3, h4, h5, h6{
     }
 
 
-/* Menu-page styles */
-.my-menu-container .card{
-    width: 350px;
-    height: auto;
-    margin: 10px;
-    text-align: center;
-}
+/* MENU PAGE STYLES */
+    .my-menu-container .card{
+        width: 350px;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+    }
 
-.my-menu-container img{
-    width: 100%;
-    height: 300px;
-    /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
-    object-fit: cover; /* Cover the area while maintaining aspect ratio */
-}
+    .my-menu-container img{
+        width: 100%;
+        height: 300px;
+        /* Resource credit: https://www.w3schools.com/csS/css3_object-fit.asp */
+        object-fit: cover;
+    }
+    .my-menu-container .list-group .list-group-item{
+        text-align: left;
+    }
 
-.my-menu-container .list-group .list-group-item{
-    text-align: left;
-}
+    .my-menu-container .card-title {
+        color: #5EBEC4;
+    }
+
+    .menu-price {
+        color:#F92C85;
+    }
+
+    .menu-page-scrollspy {
+        right: 0; /* Push the navbar to the rightmost side */
+        left: auto; /* Ensures that it doesn't stay attached to the left side */
+        position: fixed; /* Keeps it fixed at the top */
+        width: fit-content;
+    }
+    .menu-page-scrollspy .nav-link.active {
+        background-color: #F92C85;
+        color: white;
+    }
+    .menu-page-scrollspy .nav-link {
+        color: white;
+        border: 1px solid white;
+    }
+    
 
 
 /* SHOP PAGE STYLES */
@@ -176,6 +199,10 @@ h1, h2, h3, h4, h5, h6{
     
     #shop-page-side-navbar .nav-link {
         color: black;
+    }
+
+    #item-heading{
+        padding-top: 10vh;
     }
     
 

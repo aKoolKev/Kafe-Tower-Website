@@ -18,9 +18,8 @@ KEY:
     ▢ Finalize CSS ❌
 
 3. Menu
-    ▢ Find photos for all drinks ✅
-    ▢ Find photos for all hot foods ✅
-    ▢ Style with CSS ❌
+    ▢ Make responsive ❌
+    ▢ Finalize CSS ❌
 
 4. Shop
     ▢ Finalize CSS ✅
