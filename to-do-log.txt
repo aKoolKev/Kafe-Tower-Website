@@ -18,8 +18,7 @@ KEY:
     ▢ Finalize CSS ❌
 
 3. Menu
-    ▢ Make responsive ❌
-    ▢ Finalize CSS ❌
+    ▢ Finalize CSS ✅
 
 4. Shop
     ▢ Finalize CSS ✅

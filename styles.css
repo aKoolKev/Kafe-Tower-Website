@@ -73,19 +73,21 @@
     height: auto;
     display: block;
     margin: auto;
-    /* opacity: 0; */
 }
 
 
 /* ALL PAGES STYLES */
 body{
     background-color: #FDF5DF;
-   
+
+    /* Google font */
     font-family: "BioRhyme", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:"wdth" 100;
 }
+
+/* Utility classes */
 .pink-btn{
     background: #F92C85;
     color: white;
@@ -120,10 +122,6 @@ h1, h2, h3, h4, h5, h6{
     color: black;
 }
 
-/* WHAT DOES THIS DO?? */
-/* .col{
-    border: 2px solid black;
-} */
 
 /* WEBSITE NAVBAR STYLE */
 
@@ -135,6 +133,28 @@ h1, h2, h3, h4, h5, h6{
     /* Collapsible button styling */
     .navbar-toggler{
         margin: 10px;
+    }
+
+/* ABOUT PAGE STYLES */
+    .about-page-card-text{
+        text-align: justify;
+        text-indent: 20px;
+    }
+    .about-page-owner-img{
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    #cat-carousel{
+        background-color: white;
+    }
+    .about-page-img{
+        height: 400px; 
+        width: auto; 
+        margin-top: 25px; 
+        margin-bottom: 150px;
+    }
+    .carousel-caption{
+        color: black;
     }
 
 
@@ -232,25 +252,21 @@ h1, h2, h3, h4, h5, h6{
         border-radius: 10px;
     }
 
-/* x <= 576 px */
 @media (max-width: 576px) {
 
-    /* WHICH WEBPAGE THIS BELONG TO?? */
-    .my-owner-img{
+    /* ABOUT PAGE BREAKPOINT */
+    .about-page-owner-img{
         width: 250px;
         height: auto;
     }
 
-    /* Shop-page breakpoint */
-
-        /* content stack on top each other */
+    /* SHOP PAGE BREAKPOINT */
     .li-container {
         flex-direction: column;
     }
     .li-container h5, .li-container h6{
         text-align: center;
     }
-
     /* Toggle off vertical scroll on smaller devices */
     .shop-page-scrollspy{
         height: 100vh; 
@@ -281,6 +297,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
+
     /* ADOPT PAGE BREAKPOINT */
     .adopt-page-carousel-img{
         width: 450px;
