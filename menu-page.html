@@ -19,18 +19,23 @@
     <body>
         <header>
             <!-- Horizontal Navbar -->
-            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark fixed-top" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark" data-bs-theme="dark">
                 <div class="container-fluid">
-
+    
                     <!-- Hamburger menu that appears when it reaches the medium screen sizes -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-container" aria-controls="collapsible-content" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <!-- Collapisble content -->
+    
+                    <!-- Collapsible content -->
                     <div class="collapse navbar-collapse justify-content-center" id="collapsible-container">
-
                         <ul class="navbar-nav p-1">
+                            <!-- Brand Logo -->
+                            <li class="nav-item">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="images/Kat-fe Tower Logo.png" alt="Brand Logo" width="45" height="45" class="d-inline-block align-text-bottom">  
+                                </a>
+                            </li>
                             <li class="nav-item p-2">
                                 <a class="navbar-brand" href="index.html">HOME</a>
                             </li>
@@ -47,13 +52,14 @@
                                 <a class="navbar-brand" href="adopt-page.html">ADOPT</a>
                             </li>
                         </ul>
-                    </div><!--End of collapsible continer-->
-                </div> <!--End of container-->
+                    </div>
+                </div>
+                    <!-- End of collapsible container -->
             </nav>
         </header>
 
         <main>
-            <h1 class="mt-5 pt-4 text-center">Our Menu!</h1>
+            <h1 class="mt-5 pt-4 text-center fs-1">Our Menu!</h1>
 
             <!-- scrollspy credit: https://getbootstrap.com/docs/5.3/components/scrollspy/ -->
             <nav id="navbar2" class="navbar menu-page-scrollspy px-3 mb-3 fixed-top">
@@ -72,7 +78,7 @@
             <div class="container-fluid my-menu-container">
                 <div data-bs-spy="scroll" data-bs-target="#navbar2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
                     <!-- Drinks -->
-                    <h4 class="mt-5">Drinks</h4>
+                    <h4 class="mt-5 fs-2">Drinks</h4>
                     <!-- Row #1 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="scrollspy-drink-section">
                         <!-- Drink #1 -->
@@ -236,7 +242,7 @@
                     </div> <!-- End of row 1 -->
 
                     <!-- Hot Foods -->
-                    <h4 class="mt-5">Hot Foods</h4>
+                    <h4 class="mt-5 fs-2">Hot Foods</h4>
                     <!-- Row #2 : one column per row by default, med screen: 2 cols/row, lg screen: 3 cols/row -->
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="scrollspy-hot-foods-section">
                         <!-- Food #1 -->
