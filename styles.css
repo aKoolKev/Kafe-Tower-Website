@@ -138,7 +138,6 @@ body{
 /* ADOPT PAGE STYLE(S) */
 
 
-
 /* x <= 576 px */
 @media (max-width: 576px) {
 
@@ -163,14 +162,32 @@ body{
         height: 100vh; 
         overflow-y: visible;
     }
+
+    /* ADOPT PAGE BREAKPOINT */
+    .adopt-page-carousel-img{
+        width: 300px;
+        height: auto;
+    }
 }
 
 /* Tablet Styles */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 576px) and (max-width: 1024px) {
+
+    /* ADOPT PAGE BREAKPOINT */
+    .adopt-page-carousel-img{
+        width: 450px;
+        height: auto;
+    }
 
 }
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
     /* Your desktop-specific styles here */
+    /* ADOPT PAGE BREAKPOINT */
+    .adopt-page-carousel-img{
+        width: 450px;
+        height: auto;
+    }
+
 }

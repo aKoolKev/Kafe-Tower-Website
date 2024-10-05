@@ -57,11 +57,11 @@ KEY:
     ▢ Finalize CSS ❌
 
 5. Adopt
-    ▢ Create layout ❌
-    ▢ Add content ❌
-    ▢ Intro para ❌
+    ▢ Create layout ✅
+    ▢ Add content ✅
+    ▢ Intro para ✅
 
-    ▢ Finalize CSS ❌
+    ▢ Finalize CSS ❌ <<<<<
 
     
 

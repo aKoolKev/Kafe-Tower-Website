@@ -3,14 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kat-fe Tower Adopt</title>
+
+        <title>Kat-fe Tower Adoption</title>
+
         <!-- Linking Bootscrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- My style sheet -->
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+
         <header>
-            <h1>Adoption</h1>
             <!-- Horizontal Navbar -->
             <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark fixed-top" data-bs-theme="dark">
                 <div class="container-fluid">
@@ -46,21 +50,13 @@
         </header>
 
         <main>
+
+            <h1 class="mt-5 pt-4 pb-4 text-center">Adoption</h1>
+
+            <!-- Adoption page about section -->
             <div class="container text-center mb-5">
-                <h3 class="m-3"> Petfinder </h3>
                 <h6 class="m-2 fst-italic"> Our Strategic Partnership with Petfinder: Enhancing Pet Adoption Services </h6>
-                <p> 
-                    <!-- We partner up with Petfinder to aid them in helping cats find a home. 
-                    Our team randomly select cats to be display here to help spread awareness. 
-                    Our goal is to convince or implant the curiosoty about a cat and redirect them to our partner, where they can move foward on the adoption process and hopefully give a cat a home they deserve.  -->
-    
-                    <!-- Including key terms like "pet adoption," "cats," "forever home," and "Petfinder adoption services" helps improve search relevance while maintaining a professional tone. -->
-                    <!-- We are proud to collaborate with Petfinder, working together to assist in finding loving homes for cats. 
-                    Our team carefully curates and features randomly selected cats here to raise awareness about pet adoption. 
-                    By showcasing these cats, we aim to spark curiosity and encourage potential adopters to explore the opportunity further. 
-                    Through this partnership, we direct interested individuals to Petfinder's adoption services, where they can continue the adoption 
-                    process and help provide these deserving cats with a forever home. -->
-    
+                <p style="text-align:justify" class="p-3">     
                     <!-- This version is concise while maintaining a focus on key SEO terms like "cat adoption," "Petfinder," and "adoption process." -->
                     We are proud to partner with Petfinder to support cat adoption efforts. 
                     Our team highlights select cats to raise awareness and inspire curiosity. 
@@ -70,27 +66,26 @@
                 </p>
             </div>    
 
-
+    
             <!-- 1st CAT carousel: Hooligan -->
-            
             <h1 class="text-center m-3">I am..."Hooligan!"</h1>
             <!-- Img credit: https://www.petfinder.com/cat/hooligan-72258916/mo/st-louis/stray-haven-feline-rescue-inc-mo578/ -->
-            <div id="carousel" class="carousel slide w-75 mx-auto my-3">
+            <div id="carousel" class="carousel slide w-75 mx-auto my-3" style="border:2px solid red;">
                 <div class="carousel-inner">
                     <!-- Picture one -->
                     <div class="carousel-item active">
                         <!-- Img1 credit: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/72258916/2/?bust=1728040122&width=1080 -->
-                        <img src="images/Hooligan1.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Hooligan1.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                     <!-- Picture two -->
                     <div class="carousel-item">
                         <!-- Img Credit: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/72258916/1/?bust=1728040111&width=1080 -->
-                        <img src="images/Hooligan2.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Hooligan2.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                     <!-- Picture three -->
                     <div class="carousel-item">
                         <!-- Img credit: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/72258916/4/?bust=1728040095&width=1080 -->
-                        <img src="images/Hooligan3.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Hooligan3.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                 </div> <!--End of corousel inner-->
 
@@ -106,13 +101,11 @@
                     <span class="visually-hidden">Next</span>
                 </button>
 
-                <!-- Add a indicatior -->
-
             </div> <!--End of 1st cat carousel -->
 
             <!-- Get to know the cat #1 -->
             <div class="container d-flex flex-column justify-content-center align-items-center">
-                <button class="btn btn-primary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#cat1" aria-expanded="false" aria-controls="cat1">
+                <button class="btn btn-primary mw-50" type="button" data-bs-toggle="collapse" data-bs-target="#cat1" aria-expanded="false" aria-controls="cat1">
                     Get to know me!
                 </button>
 
@@ -127,12 +120,11 @@
                                 <li style="list-style: none;"> ✅ Vaccine</li>
                                 <li style="list-style: none;"> ✅ Neutered</li>
                             </ul>
-                            <a class="btn btn-primary mx-auto w-50" type="button" href="https://www.petfinder.com/cat/hooligan-72258916/mo/st-louis/stray-haven-feline-rescue-inc-mo578/" target="_blank">Adopt Me!</a>
+                            <a class="btn btn-primary adopt-page-link-button mx-auto mw-50" type="button" href="https://www.petfinder.com/cat/hooligan-72258916/mo/st-louis/stray-haven-feline-rescue-inc-mo578/" target="_blank">Adopt Me!</a>
                         </div>
                     </div>
                 </div>
             </div>
-
 
 
             <!-- 2nd CAT carousel: Comet -->
@@ -144,17 +136,17 @@
                     <!-- Picture one -->
                     <div class="carousel-item active">
                         <!-- Img1 credit: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/72543952/3/?bust=1727388126&width=1080 -->
-                        <img src="images/Comet1.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Comet1.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                     <!-- Picture two -->
                     <div class="carousel-item">
                         <!-- Img2 Credit: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/72543952/6/?bust=1727387804&width=1080 -->
-                        <img src="images/Comet2.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Comet2.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                     <!-- Picture three -->
                     <div class="carousel-item">
                         <!-- Img3 credit: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/72543952/2/?bust=1727388127&width=1080 -->
-                        <img src="images/Comet3.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Comet3.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                 </div> <!--End of corousel inner-->
 
@@ -170,13 +162,11 @@
                     <span class="visually-hidden">Next</span>
                 </button>
 
-                <!-- Add a indicatior -->
-
             </div> <!--End of 2nd cat carousel -->
 
             <!-- Get to know the cat -->
             <div class="container d-flex flex-column justify-content-center align-items-center">
-                <button class="btn btn-primary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#cat2" aria-expanded="false" aria-controls="cat1">
+                <button class="btn btn-primary mw-50" type="button" data-bs-toggle="collapse" data-bs-target="#cat2" aria-expanded="false" aria-controls="cat2">
                     Get to know me!
                 </button>
 
@@ -192,7 +182,7 @@
                                 <li style="list-style: none;"> ✅ Neutered</li>
                                 <li style="list-style: none;"> ✅ Good with other cats</li>
                             </ul>
-                            <a class="btn btn-primary mx-auto w-50" type="button" href="https://www.petfinder.com/cat/comet-72543952/mo/ballwin/st-louis-pet-rescue-mo523/" target="_blank">Adopt Me!</a>
+                            <a class="btn btn-primary adopt-page-link-button mx-auto mw-50" type="button" href="https://www.petfinder.com/cat/comet-72543952/mo/ballwin/st-louis-pet-rescue-mo523/" target="_blank">Adopt Me!</a>
                         </div>
                     </div>
                 </div>
@@ -207,17 +197,17 @@
                     <!-- Picture one -->
                     <div class="carousel-item active">
                         <!-- Img1 credit: https://dbw3zep4prcju.cloudfront.net/animal/6ac0ee23-8f28-432e-871a-e921c53252d0/image/3db42152-9347-4508-bdc9-ef276549c14e.jpeg?versionId=2JjOxrkcFupU0lTUUa3yn.NZybAUo9Gi&bust=1727762088&width=1080 -->
-                        <img src="images/Zero1.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Zero1.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                     <!-- Picture two -->
                     <div class="carousel-item">
                         <!-- Img2 Credit: https://dbw3zep4prcju.cloudfront.net/animal/6ac0ee23-8f28-432e-871a-e921c53252d0/image/035d50d6-8fb4-45ae-9dac-664e55e5b9d6.jpeg?versionId=Wpe0jTwx7Bfzk7WOz97blfPKUU3WzJZq&bust=1727762087&width=1080 -->
-                        <img src="images/Zero2.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Zero2.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                     <!-- Picture three -->
                     <div class="carousel-item">
                         <!-- Img3 credit: https://dbw3zep4prcju.cloudfront.net/animal/6ac0ee23-8f28-432e-871a-e921c53252d0/image/bd881515-ff5a-496a-9188-10c48fbe6144.jpeg?versionId=3EJTtg3wGERmuRWtF7h9hwK0h7prfFpt&bust=1727762088&width=1080 -->
-                        <img src="images/Zero3.jpeg" class="d-block w-100" alt="...">
+                        <img src="images/Zero3.jpeg" class="adopt-page-carousel-img d-block mw-50 mx-auto" alt="...">
                     </div>
                 </div> <!--End of corousel inner-->
 
@@ -233,13 +223,11 @@
                     <span class="visually-hidden">Next</span>
                 </button>
 
-                <!-- Add a indicatior -->
-
             </div> <!--End of 3rd cat carousel -->
 
             <!-- Get to know the cat -->
             <div class="container d-flex flex-column justify-content-center align-items-center">
-                <button class="btn btn-primary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#cat3" aria-expanded="false" aria-controls="cat1">
+                <button class="btn btn-primary mw-50" type="button" data-bs-toggle="collapse" data-bs-target="#cat3" aria-expanded="false" aria-controls="cat3">
                     Get to know me!
                 </button>
 
@@ -255,13 +243,12 @@
                                 <li style="list-style: none;"> ✅ Vaccine</li>
                                 <li style="list-style: none;"> ✅ Good with other cats</li>
                             </ul>
-                            <a class="btn btn-primary mx-auto w-50" type="button" href="https://www.petfinder.com/cat/zero-73357697/mo/st-louis/jack-of-all-cats-tx2817/" target="_blank">Adopt Me!</a>
+                            <a class="btn btn-primary adopt-page-link-button mx-auto mw-50" type="button" href="https://www.petfinder.com/cat/zero-73357697/mo/st-louis/jack-of-all-cats-tx2817/" target="_blank">Adopt Me!</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
-
+    
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
