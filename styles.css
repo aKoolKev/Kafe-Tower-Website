@@ -84,6 +84,19 @@ body{
     font-variation-settings:"wdth" 100;
 }
 
+footer{
+    margin-top: 20px;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #F92C85;
+    font-weight: bold;
+}
+
 h1, h2, h3, h4, h5, h6{
     color:#5EBEC4;
     font-weight: bold;
@@ -303,6 +316,10 @@ h1, h2, h3, h4, h5, h6{
     }
     .carousel-para{
         text-align: justify;
+    }
+
+    footer{
+        font-size: 13px;
     }
 
    
