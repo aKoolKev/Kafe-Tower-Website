@@ -13,9 +13,7 @@ KEY:
     ▢ Finalize CSS ❌
 
 2. About page
-    ▢ 772 Kevin and Erika pictures not centered ❌
-
-    ▢ Finalize CSS ❌
+    ▢ Finalize CSS ✅
 
 3. Menu
     ▢ Finalize CSS ✅

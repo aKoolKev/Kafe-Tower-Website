@@ -44,8 +44,6 @@
     flex-direction: column;
     margin: 10px;
     padding: 50px;
-
-    border: 1px solid #000;
 }
 
 /* Apply animation to business NAME when hovered over on desktop */
@@ -86,6 +84,12 @@ body{
     font-variation-settings:"wdth" 100;
 }
 
+h1, h2, h3, h4, h5, h6{
+    color:#5EBEC4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* Utility classes */
 .pink-btn{
     background: #F92C85;
@@ -93,27 +97,18 @@ body{
     font-weight: bold;
     border: none;
 }
-
 .blue-btn{
     background: #5EBEC4;
     color: white;
     font-weight: bold;
     border: none;
 }
-
 .white-btn{
     background: white;
     color: #5EBEC4;
     font-weight: bold;
     border: 2px solid black
 }
-
-h1, h2, h3, h4, h5, h6{
-    color:#5EBEC4;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .pink-font {
     color: #F92C85
 }
@@ -122,8 +117,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/* WEBSITE NAVBAR STYLE */
-
+/* WEBSITE NAVBAR STYLES */
     /* Hover effect */
     .navbar-brand:hover{
         color: #F92C85;
@@ -133,6 +127,19 @@ h1, h2, h3, h4, h5, h6{
     .navbar-toggler{
         margin: 10px;
     }
+
+/* HOME(INDEX) STYLES */
+    .home-page-col{
+        border:1px solid black;
+    }
+    #home-page-container{
+        background-color: white; 
+        height: fit-content; 
+        width: 90%;
+    }
+
+
+
 
 
 /* ABOUT PAGE STYLES */
@@ -325,6 +332,5 @@ h1, h2, h3, h4, h5, h6{
         width: 450px;
         height: auto;
     }
-
 
 }

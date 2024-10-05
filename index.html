@@ -10,6 +10,11 @@
 
         <!-- Linking CSS file -->
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Google font: https://fonts.google.com/selection?preview.layout=grid&stroke=Slab+Serif -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -21,12 +26,11 @@
             <div id="animation-area">
 
                 <!-- Cafe name -->
-                <h1 id="business-name"> Kat-fé Tower </h1>
+                <h1 id="business-name"> Kat-fé <span class="pink-font">Tower</span></h1>
 
                 <!-- Cafe logo -->
                 <img id="business-logo" src="images/Kat-fe Tower Logo.png" alt="The Kat-fe Tower logo: a cat peeking from a coffee cup">
             </div>
-
 
             <!-- Horizontal Navbar -->
             <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark" data-bs-theme="dark">
@@ -59,32 +63,32 @@
                     </div>
                     <!-- End of collapsible container -->
             </nav>
-           
+
         </header>
         
         <main>
-            <div class="container text-center mt-4" style="background-color: white; height: fit-content; ">
-                <div class="row text-center" style="background-color: gray;">
+            <div id="home-page-container" class="container text-center m-4 mx-auto">
+                <div class="row text-center">
                     
                     <!-- Location -->
-                    <div class="col" style="background-color: tan; height: fit-content;">
-                        <h2>Our Location</h2>
-                        <iframe 
+                    <div class="col-md-6 col-lg-4 order-2 order-sm-2 order-md-2 order-lg-1 home-page-col">
+                        <h2 class="m-4">Our Location</h2>
+                        <iframe
+                            id="google-map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.138648935137!2d-90.48298682349825!3d38.78345577174862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df2fb5c8f1f6bd%3A0xd17027a4a45e4f14!2sCat%20Zen%20Cafe%20and%20Lounge!5e0!3m2!1sen!2sus!4v1727740756009!5m2!1sen!2sus" 
-                            width="400px" 
+                            width="90%" 
                             height="530px" 
                             style="border:0;" 
                             allowfullscreen="" 
                             loading="lazy" 
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
-                    </div>
+                    </div> <!-- End of location -->
                     
-
                     <!-- Mission statement -->
-                    <div class="col" style="background-color: tan;">
+                    <div class="col-md-12 col-lg-4 order-1 order-sm-1 order-md-1 order-lg-2 home-page-col">
                         
-                        <h2>Who Are We?</h2>
+                        <h2 class="m-4">Who Are We?</h2>
                         <p class="container">
                             A couple-owned business born from their passion and love for cats and coffee. We have proudly 
                             operated on bustling St. Charles Historic Main Street for five years and counting. <br><br>
@@ -105,18 +109,22 @@
                             <h3 class="fst-italic"> Coffee, Cats, and Chit-Chat</h1>
                         </blockquote>
 
-                    </div>
+                        <!-- Button credit: https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
+                        <a class="btn pink-btn m-2" href="about-page.html" role="button">Come Meet Us!</a>
+
+                    </div> <!--End of Mission statement-->
 
                     <!-- Hours -->
-                    <div class="col d-flex align-items-center" style="background-color: tan;">
+                    <!-- Ordering credit: https://getbootstrap.com/docs/5.3/layout/columns/#order-classes -->
+                    <div class="col-md-6 col-lg-4 order-3 order-sm-3 order-md-3 order-lg-3 d-flex flex-column align-items-center justify-content-center home-page-col">
                         <!-- Table credit: https://getbootstrap.com/docs/5.3/content/tables/#overview -->
                         <!-- Table hover credit: https://getbootstrap.com/docs/5.3/content/tables/#hoverable-rows -->
                         <!-- Table border credit: https://getbootstrap.com/docs/5.3/content/tables/#table-borders -->
                         <!-- Table divider: https://getbootstrap.com/docs/5.3/content/tables/#table-group-dividers -->
-                        <table class="table table-hover table-bordered table-responsive">
+                        <table class="table hour-table table-hover table-bordered table-responsive mt-3">
                             <thead>
                                 <tr>
-                                    <th colspan="2" class="col-span2"><h2>Our Hours</h2></th>
+                                    <th colspan="2" class="col-span2"><h2 class="m-4">Our Hours</h2></th>
                                 </tr>
                             </thead>
                             <tbody class="table-group-divider">
@@ -134,17 +142,15 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div> 
-                </div>
-            </div>
+
+                        <!-- Button credit: https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
+                        <a class="btn pink-btn m-2" href="menu-page.html" role="button">See Our Menu!</a>
+                    </div>  <!--End of Hours-->
+
+                </div><!--End of row--> 
+            </div> <!-- End of container -->
             
-            <!-- Button credit: https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
-            <!-- Centering button credit: https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
-            <!-- Buttons to the About page and Menu page-->
-            <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-3 mb-5">
-                <a class="btn btn-dark" href="about-page.html" role="button">Come Meet Us!</a>
-                <a class="btn btn-dark" href="menu-page.html" role="button">Our Menu!</a>
-            </div>
+           
 
         </main>
 
