@@ -6,42 +6,14 @@ KEY:
 
 
 1. Home page 
-    ▢ Animation 
-        > Active on hover ✅
-        > Create new onload Animation ❌
-    ▢ Craft mission statement ✅
-    ▢ Embed location ✅
     ▢ Style Navbar ❌
         // Change text color on hover...could do more maybe
 
+    ▢ Make it responsive ❌
     ▢ Finalize CSS ❌
 
 2. About page
-    ▢ Photo me ✅
-        ▢ ...Bio ✅
-
-    ▢ Photo of Erika ❌
-        ▢ ...Bio ✅
-
-    ▢ Photo of Sappy ✅
-        ▢ ...Bio ✅
-        ▢ animation???
-
-    ▢ Photo of Garden ✅
-        ▢ ...Bio ✅
-        ▢ animation???
-
-    ▢ Photo of Azula ✅
-        ▢ ...Bio ✅
-        ▢ animation???
-
-    ▢ Photo of Frankie ✅
-        ▢ ...Bio ✅
-        ▢ animation???
-
-    ▢ Photo of River ✅
-        ▢ ...Bio ✅
-        ▢ animation???
+    ▢ 772 Kevin and Erika pictures not centered ❌
 
     ▢ Finalize CSS ❌
 
@@ -51,17 +23,14 @@ KEY:
     ▢ Style with CSS ❌
 
 4. Shop
-    ▢ Create layout and content ✅
-    ▢ Find photos for all items ✅
-    ▢ Need to make sidebar turn into horizontal side bar on small devices ✅
     ▢ Finalize CSS ❌
 
 5. Adopt
     ▢ Create layout ✅
     ▢ Add content ✅
     ▢ Intro para ✅
-
-    ▢ Finalize CSS ❌ <<<<<
+    ▢ Select Typography ✅
+    ▢ Finalize CSS ✅
 
     
 

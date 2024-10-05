@@ -3,14 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kat-fe Tower Shop</title>
+        <title>Kat-fe Tower-Shop</title>
+
         <!-- Linking Bootscrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!--My style sheet  -->
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Google font: https://fonts.google.com/selection?preview.layout=grid&stroke=Slab+Serif -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <header>
-            <h1>Shop</h1>
             <!-- Horizontal Navbar -->
             <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-dark fixed-top" data-bs-theme="dark">
                 <div class="container-fluid">
@@ -45,255 +53,259 @@
             </nav>
         </header>
 
-        <div class="container-fluid shop-page-container">
-            <div class="row justify-content-evenly">
-
-                <!-- Vertical sidebar only visible on small devices and up -->
-                <!-- Hiding Element resource credit: https://getbootstrap.com/docs/5.3/utilities/display/ -->
-                <div class="col-2 pt-5 d-none d-md-block"> 
-                    <nav id="shop-page-side-navbar" class="h-100">
-                        <nav class="nav nav-pills">
-                            <a class="nav-link" href="#item-1">Food & Treats</a>
-                            <a class="nav-link" href="#item-2">Litter & Hygiene</a>
-                            <a class="nav-link" href="#item-3">Health & Wellness</a>
-                            <a class="nav-link" href="#item-4">Toys & Enrichment</a>
+        <main>
+            <h1>Shop</h1>
+            <div class="container-fluid shop-page-container">
+                <div class="row justify-content-evenly">
+    
+                    <!-- Vertical sidebar only visible on small devices and up -->
+                    <!-- Hiding Element resource credit: https://getbootstrap.com/docs/5.3/utilities/display/ -->
+                    <div class="col-2 pt-5 d-none d-md-block"> 
+                        <nav id="shop-page-side-navbar" class="h-100">
+                            <nav class="nav nav-pills">
+                                <a class="nav-link" href="#item-1">Food & Treats</a>
+                                <a class="nav-link" href="#item-2">Litter & Hygiene</a>
+                                <a class="nav-link" href="#item-3">Health & Wellness</a>
+                                <a class="nav-link" href="#item-4">Toys & Enrichment</a>
+                            </nav>
                         </nav>
-                    </nav>
-                </div>
-
-                <!-- Horizontal navbar only visible on small devices -->
-                <nav class="navbar bg-body-tertiary shop-page-horizontal-navbar fixed-bottom d-md-none">
-                    <div class="container-fluid">
-                        <ul class="navbar-nav w-100 d-flex flex-row justify-content-evenly">
-                            <li class="nav-item mx-3">
-                                <a class="btn btn-primary" href="#item-1" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Food</a>
-                                
-                            </li>
-                            <li class="nav-item mx-3">
-                                <a class="btn btn-primary" href="#item-2" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Care</a>
-                            
-                            </li>
-                            <li class="nav-item mx-3">
-                                <a class="btn btn-primary" href="#item-3" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Health</a>
-                            
-                            </li>
-                            <li class="nav-item mx-3">
-                                <a class="btn btn-primary" href="#item-4" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Toys</a>
-                            
-                            </li>
-                        </ul>
                     </div>
-                </nav>
-
-                <!-- Shop content column -->
-                <div class="col-sm-11 col-md-10">
-                    <div data-bs-spy="scroll" data-bs-target="#shop-page-side-navbar" data-bs-smooth-scroll="true" class="shop-page-scrollspy" tabindex="0">
-                        <div id="item-1">
-                            <h3 style="padding-top: 10vh;">Food & Treats</h3>
-                            <!-- list group credit: https://getbootstrap.com/docs/5.3/components/list-group/ -->
-                            <ul class="list-group">
+    
+                    <!-- Horizontal navbar only visible on small devices -->
+                    <nav class="navbar bg-body-tertiary shop-page-horizontal-navbar fixed-bottom d-md-none">
+                        <div class="container-fluid">
+                            <ul class="navbar-nav w-100 d-flex flex-row justify-content-evenly">
+                                <li class="nav-item mx-3">
+                                    <a class="btn btn-primary" href="#item-1" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Food</a>
+                                    
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="btn btn-primary" href="#item-2" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Care</a>
                                 
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex justify-content-evenly align-items-center li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md">
-                                            <!-- Img credit: https://www.amazon.com/Wellness-Digestive-Health-Grain-Variety/dp/B0971GP6SM -->
-                                            <img src="images/Wellness CORE.jpg" class="img-fluid" alt="Cans of Wellness CORE cat food.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">Wet Food:  Wellness CORE Grain-Free Multipack (12 cans)</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li>High in protein with no fillers or by-products </li>
-                                                <li>Includes natural ingredients and added vitamins and minerals </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$24.00</h6>
-                                        </div>
-                                    </div>
                                 </li>
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://www.petsplusca.com/product/blue-buffalo-wilderness-indoor-chicken-recipe-grain-free-dry-cat-food-5-lb-bag/ -->
-                                            <img src="images/Blue Buffalo Wilderness.jpeg" class="img-fluid" alt="Bag of Blue Buffalo Wilderness cat food.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">Dry Food: Blue Buffalo Wilderness (5 lbs bag)</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li>High-protein, grain-free formula with real meat </li>
-                                                <li>Contains LifeSource Bits, a blend of antioxidants, vitamins, and minerals </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$20.00</h6>
-                                        </div>
-                                    </div>
+                                <li class="nav-item mx-3">
+                                    <a class="btn btn-primary" href="#item-3" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Health</a>
+                                
                                 </li>
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://m.media-amazon.com/images/I/81gqUB539FL._AC_SL1500_.jpg -->
-                                            <img src="images/PureBites.jpeg" class="img-fluid" alt="A bag of PureBites cat food.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">PureBites (1.6 oz bag)</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li>Made with only one ingredient, such as chicken or fish, PureBites treats are freeze-dried to retain nutrients.</li>
-                                                <li>They are high in protein and free from fillers, additives, and preservatives.</li>
-                                            </ul> 
-                                            <!-- Price -->
-                                            <h6 class="m-2">$5.00</h6>
-                                        </div>
-                                    </div>
+                                <li class="nav-item mx-3">
+                                    <a class="btn btn-primary" href="#item-4" role="button" style="background-color: lightblue; margin:5px 0px; padding: 5px 10px; color: black;">Toys</a>
+                                
                                 </li>
                             </ul>
+                        </div>
+                    </nav>
+    
+                    <!-- Shop content column -->
+                    <div class="col-sm-11 col-md-10">
+                        <div data-bs-spy="scroll" data-bs-target="#shop-page-side-navbar" data-bs-smooth-scroll="true" class="shop-page-scrollspy" tabindex="0">
+                            <div id="item-1">
+                                <h3 style="padding-top: 10vh;">Food & Treats</h3>
+                                <!-- list group credit: https://getbootstrap.com/docs/5.3/components/list-group/ -->
+                                <ul class="list-group">
+                                    
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex justify-content-evenly align-items-center li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md">
+                                                <!-- Img credit: https://www.amazon.com/Wellness-Digestive-Health-Grain-Variety/dp/B0971GP6SM -->
+                                                <img src="images/Wellness CORE.jpg" class="img-fluid" alt="Cans of Wellness CORE cat food.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">Wet Food:  Wellness CORE Grain-Free Multipack (12 cans)</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li>High in protein with no fillers or by-products </li>
+                                                    <li>Includes natural ingredients and added vitamins and minerals </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$24.00</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://www.petsplusca.com/product/blue-buffalo-wilderness-indoor-chicken-recipe-grain-free-dry-cat-food-5-lb-bag/ -->
+                                                <img src="images/Blue Buffalo Wilderness.jpeg" class="img-fluid" alt="Bag of Blue Buffalo Wilderness cat food.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">Dry Food: Blue Buffalo Wilderness (5 lbs bag)</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li>High-protein, grain-free formula with real meat </li>
+                                                    <li>Contains LifeSource Bits, a blend of antioxidants, vitamins, and minerals </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$20.00</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://m.media-amazon.com/images/I/81gqUB539FL._AC_SL1500_.jpg -->
+                                                <img src="images/PureBites.jpeg" class="img-fluid" alt="A bag of PureBites cat food.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">PureBites (1.6 oz bag)</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li>Made with only one ingredient, such as chicken or fish, PureBites treats are freeze-dried to retain nutrients.</li>
+                                                    <li>They are high in protein and free from fillers, additives, and preservatives.</li>
+                                                </ul> 
+                                                <!-- Price -->
+                                                <h6 class="m-2">$5.00</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            
+                            </div> <!-- End of item 1 -->
+                            <div id="item-2">
+                                <h3 style="padding-top: 10vh;">Litter & Hygiene</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://todaysfreestuff.ca/free-8lb-bag-worlds-best-cat-litter/ -->
+                                                <img src="images/World's Best Cat Litter.jpg" class="img-fluid" alt="A bag of the World's Best Cat Litter.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">World's Best Cat Litter (8 lbs bag)</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li> Made from whole-kernel corn </li>
+                                                    <li> Biodegradable litter clumps well and controls odors effectively  </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$27.50</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://uk.pinterest.com/pin/petfusion-betterbox-nonstick-large-litter-box--380132024796130306/ -->
+                                                <img src="images/PetFusion BetterBox.jpg" class="img-fluid" alt="The petfusion litter box.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">PetFusion BetterBox</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li> High-back design to help contain litter and prevent spills</li>
+                                                    <li> Durable materials </li>
+                                                    <li> Easy-to-clean surface </li>
+                                                    <li> Size accommodates larger cats comfortably </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$35.00</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> <!-- End of item 2-->
+                            <div id="item-3">
+                                <h3 style="padding-top: 10vh;">Health & Wellness</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://www.chewy.com/smartcat-ultimate-32-in-sisal-cat/dp/49134 -->
+                                                <img src="images/SmartCat Ultimate Scratching Post.jpeg" class="img-fluid px-2" alt="SmartCat Scratching Post">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">SmartCat Ultimate Scratching Post</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li> Tall post is sturdy </li>
+                                                    <li> Made from sisal </li>
+                                                    <li> Encourages vertical scratching</li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$35.00</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://www.walmart.com/ip/FRONTLINE-Plus-for-Cats-and-Kittens-1-5-pounds-and-over-Flea-and-Tick-Treatment-3-Doses/27129758 -->
+                                                <img src="images/Frontline Plus.jpeg" class="img-fluid" alt="Frontline Plus fleas and ticks cat treatment.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">Frontline Plus (3 doses) </h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li> A topical treatment that is effective against fleas and ticks.</li>
+                                                    <li> Kills adult fleas and preventing their eggs from hatching. </li>
+                                                    <li> It's waterproof, so it remains effective even after baths or swimming. </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$40.00</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> <!-- End of item 3 -->
+                            <div id="item-4" style="margin-bottom: 100px;">
+                                <h3 style="padding-top: 10vh;">Toys & Enrichment</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://www.pet.kiwi/product/catit-senses-2.0-digger/pw42985w.aspx -->
+                                                <img src="images/Catit Senses 2.0 Digger.jpg" class="img-fluid" alt="Catit Senses feeder toy.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">Catit Senses 2.0 Digger</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li> Interactive feeder toy encourages cats to dig and paw for treats</li>
+                                                    <li> Promotes mental stimulation </li>
+                                                    <li> Slow down eating </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$14.00</h6>
+                                            </div>
+                                        </div>
                         
-                        </div> <!-- End of item 1 -->
-                        <div id="item-2">
-                            <h3 style="padding-top: 10vh;">Litter & Hygiene</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://todaysfreestuff.ca/free-8lb-bag-worlds-best-cat-litter/ -->
-                                            <img src="images/World's Best Cat Litter.jpg" class="img-fluid" alt="A bag of the World's Best Cat Litter.">
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
+                                        <div class="d-flex align-items-center justify-content-evenly li-container">
+                                            <div class="d-flex justify-content-center w-100 w-md-50">
+                                                <!-- Img credit: https://www.pinterest.com/pin/545991154815730903/ -->
+                                                <img src="images/PetSafe Pounce Cat Toy.jpg.webp" class="img-fluid" alt="Petsafe Pounce Cat Toy.">
+                                            </div>
+                                            <div class="w-100 w-md-50">
+                                                <!-- Name -->
+                                                <h5 class="mb-1">PetSafe Pounce Cat Toy</h5>
+                                                <!-- Description -->
+                                                <ul>
+                                                    <li> An interactive toy that mimics prey by moving randomly across the floor. </li>
+                                                    <li> Features various movement patterns to keep your cat engaged. </li>
+                                                </ul>
+                                                <!-- Price -->
+                                                <h6 class="m-2">$40.00</h6>
+                                            </div>
                                         </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">World's Best Cat Litter (8 lbs bag)</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li> Made from whole-kernel corn </li>
-                                                <li> Biodegradable litter clumps well and controls odors effectively  </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$27.50</h6>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://uk.pinterest.com/pin/petfusion-betterbox-nonstick-large-litter-box--380132024796130306/ -->
-                                            <img src="images/PetFusion BetterBox.jpg" class="img-fluid" alt="The petfusion litter box.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">PetFusion BetterBox</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li> High-back design to help contain litter and prevent spills</li>
-                                                <li> Durable materials </li>
-                                                <li> Easy-to-clean surface </li>
-                                                <li> Size accommodates larger cats comfortably </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$35.00</h6>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> <!-- End of item 2-->
-                        <div id="item-3">
-                            <h3 style="padding-top: 10vh;">Health & Wellness</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://www.chewy.com/smartcat-ultimate-32-in-sisal-cat/dp/49134 -->
-                                            <img src="images/SmartCat Ultimate Scratching Post.jpeg" class="img-fluid px-2" alt="SmartCat Scratching Post">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">SmartCat Ultimate Scratching Post</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li> Tall post is sturdy </li>
-                                                <li> Made from sisal </li>
-                                                <li> Encourages vertical scratching</li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$35.00</h6>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://www.walmart.com/ip/FRONTLINE-Plus-for-Cats-and-Kittens-1-5-pounds-and-over-Flea-and-Tick-Treatment-3-Doses/27129758 -->
-                                            <img src="images/Frontline Plus.jpeg" class="img-fluid" alt="Frontline Plus fleas and ticks cat treatment.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">Frontline Plus (3 doses) </h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li> A topical treatment that is effective against fleas and ticks.</li>
-                                                <li> Kills adult fleas and preventing their eggs from hatching. </li>
-                                                <li> It's waterproof, so it remains effective even after baths or swimming. </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$40.00</h6>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> <!-- End of item 3 -->
-                        <div id="item-4" style="margin-bottom: 100px;">
-                            <h3 style="padding-top: 10vh;">Toys & Enrichment</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://www.pet.kiwi/product/catit-senses-2.0-digger/pw42985w.aspx -->
-                                            <img src="images/Catit Senses 2.0 Digger.jpg" class="img-fluid" alt="Catit Senses feeder toy.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">Catit Senses 2.0 Digger</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li> Interactive feeder toy encourages cats to dig and paw for treats</li>
-                                                <li> Promotes mental stimulation </li>
-                                                <li> Slow down eating </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$14.00</h6>
-                                        </div>
-                                    </div>
-                    
-                                </li>
-                                <li class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center m-3">
-                                    <div class="d-flex align-items-center justify-content-evenly li-container">
-                                        <div class="d-flex justify-content-center w-100 w-md-50">
-                                            <!-- Img credit: https://www.pinterest.com/pin/545991154815730903/ -->
-                                            <img src="images/PetSafe Pounce Cat Toy.jpg.webp" class="img-fluid" alt="Petsafe Pounce Cat Toy.">
-                                        </div>
-                                        <div class="w-100 w-md-50">
-                                            <!-- Name -->
-                                            <h5 class="mb-1">PetSafe Pounce Cat Toy</h5>
-                                            <!-- Description -->
-                                            <ul>
-                                                <li> An interactive toy that mimics prey by moving randomly across the floor. </li>
-                                                <li> Features various movement patterns to keep your cat engaged. </li>
-                                            </ul>
-                                            <!-- Price -->
-                                            <h6 class="m-2">$40.00</h6>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </div> <!-- End of item 4 -->
-                    </div> <!-- End of scrollable shop content column-->
-                </div> <!-- End of 2nd column -->
-            
-            </div> <!-- End of row-->
-        </div> <!-- End of container -->
+                                    </li>
+                                </ul>
+    
+                            </div> <!-- End of item 4 -->
+                        </div> <!-- End of scrollable shop content column-->
+                    </div> <!-- End of 2nd column -->
+                
+                </div> <!-- End of row-->
+            </div> <!-- End of container -->
+        </main>
+       
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>

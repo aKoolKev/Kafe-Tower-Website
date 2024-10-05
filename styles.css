@@ -77,9 +77,47 @@
 }
 
 
-/* */
+/* ALL PAGES STYLES */
 body{
-    background-color: rgb(227, 208, 208);
+    background-color: #FDF5DF;
+   
+    font-family: "BioRhyme", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.pink-btn{
+    background: #F92C85;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.blue-btn{
+    background: #5EBEC4;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.white-btn{
+    background: white;
+    color: #5EBEC4;
+    font-weight: bold;
+    border: 2px solid black
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#5EBEC4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pink-font {
+    color: #F92C85
+}
+.black-font {
+    color: black;
 }
 
 /* WHAT DOES THIS DO?? */
@@ -91,7 +129,7 @@ body{
 
     /* Hover effect */
     .navbar-brand:hover{
-        color: green;
+        color: #F92C85;
     }
 
     /* Collapsible button styling */
@@ -134,9 +172,31 @@ body{
     width: 100%;
 }
 
-
-/* ADOPT PAGE STYLE(S) */
-
+/* ADOPT PAGE STYLES */
+    .adopt-page-about-para{
+        text-align:justify; 
+        text-indent: 20px;
+        max-width: 75%;
+    }
+    .collapse-container{
+        min-height: 120px;
+    }
+    .list-style-none{
+        list-style: none;
+    }
+    .featured-cat-heading{
+        border-bottom: 2px solid black;
+        width: fit-content;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        background-color: #F92C85;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .carousel-item img{
+        border: 2px solid black;
+        border-radius: 10px;
+    }
 
 /* x <= 576 px */
 @media (max-width: 576px) {
@@ -183,7 +243,6 @@ body{
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
-    /* Your desktop-specific styles here */
     /* ADOPT PAGE BREAKPOINT */
     .adopt-page-carousel-img{
         width: 450px;
