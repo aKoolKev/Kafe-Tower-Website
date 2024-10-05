@@ -317,6 +317,9 @@ h1, h2, h3, h4, h5, h6{
     .carousel-para{
         text-align: justify;
     }
+    #last-item{
+        margin-bottom: 30px;
+    }
 
     footer{
         font-size: 13px;
